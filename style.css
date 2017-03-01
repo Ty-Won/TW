@@ -1,25 +1,32 @@
 /*Beginning of css file*/
 
+* { 
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius:10px;
+  min-width: 250px;
+  min-height: 300px;
+}
+    
 
-
-h1{
-  color:white;
-  }
-  
-  
 #name{
   margin: 0 auto;
   position: relative;
   text-align: center;
-  top: 25%;
-  width: 60%;
+  top: 45%;
+  width: 50%;
+  Color:white;
+  background-color: gray;
+  
   }
   
 .header {
-    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg");
     height: 400px;
     background-position: center;
     text-align:center;
     font-family: "Neuton",serif;
+}
+
+div.container{
+  color:red;
 }
 
