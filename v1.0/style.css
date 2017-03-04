@@ -1,0 +1,44 @@
+/*Beginning of css file*/
+
+* { 
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin:0;
+  padding:0;
+  min-width: 300px;
+  min-height: 300px;
+  box-sizing: border-box;
+}
+    
+
+div#name{
+  /*
+  position: relative;
+  top: 45%;
+  width: 50%;
+  Color:white;
+  margin:auto;
+  background-color: gray;
+  */
+  border: 1px solid blue;
+  position: relative;
+  
+  top: 50%;
+  width: 50%;
+  margin:auto;
+ 
+  }
+  
+.header {
+  /*
+    height: 400px;
+    background-position: center;
+    text-align:center;
+    font-family: "Neuton",serif;
+    border:1px solid #000;
+    */
+}
+
+div.container{
+  color:red;
+}
+

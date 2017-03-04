@@ -1,0 +1,20 @@
+
+/*Outline all the elements with a border to see the box model*/
+
+/*
+*{
+    border: 1px solid black;
+    margin:0;
+    padding:0;
+}
+
+
+#Title{
+    position:relative;
+    left:0;
+    top:90%;
+    width:100%;
+    text-align: center;
+}
+
+*/
