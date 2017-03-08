@@ -3,7 +3,7 @@
 
 
 *{
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     margin:0;
     padding:0;
 }
@@ -11,14 +11,17 @@
 /*Headline for beginning of website*/
 #Greeting{
     box-sizing: border-box;
+    color:white;
     margin: auto;
-    margin-bottom: 5em;
+    font-size: 40px;
+    font-family: monospace;
     position: relative;
     text-align: center;
-    top: 50px;
-    width: 70%;
-    padding:20% 20%;
-    
+    top: 100%;
+    width: 100%;
+    padding:25% 25%;
+    background: url("http://hd-wall-papers.com/images/wallpapers/background-image-laptop/background-image-laptop-3.jpg") no-repeat center center;
+    background-size:cover;
 }
 
 
