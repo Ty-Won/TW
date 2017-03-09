@@ -1,0 +1,71 @@
+/*Outline all the elements with a border to see the box model*/
+
+
+*{
+    /*border: 1px solid black;*/
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Headline for beginning of website*/
+#Greeting{
+    box-sizing: border-box;
+    color:white;
+    margin: auto;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    top: 100%;
+    width: 100%;
+    padding:25% 25%;
+    background: url("http://hd-wall-papers.com/images/wallpapers/background-image-laptop/background-image-laptop-3.jpg") no-repeat center center;
+    background-size:cover;
+}
+
+
+
+/*Menu box model configuration*/
+div#menu{
+    box-sizing: border-box;
+    margin: 5em auto;
+    font-size: 20px;
+    color:white;
+    text-align:center;
+    text-decoration: none;
+    top: 280px;
+    width:100%;
+
+}
+
+/*removes the underline beneath links*/
+.option{
+    text-decoration: none;
+    color:black;
+}
+
+
+a:hover{
+    color:black;
+    background-color:lightslategrey;
+}
+
+
+.description{
+    box-sizing:border-box;
+    background-color:#C2C0C0;
+    color:white;
+    position:relative;
+    margin:auto;
+    text-align: center;
+    font-size: 20px;
+    height: 300px;
+    width: 100%;
+    padding:10% 0;
+}
+
+
+.bottomMenu{
+    text-decoration: none;
+    color:black;
+}
