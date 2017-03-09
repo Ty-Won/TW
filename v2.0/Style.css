@@ -6,6 +6,7 @@
     border: 1px solid black;
     margin:0;
     padding:0;
+    font-family: monospace;
 }
 
 /*Headline for beginning of website*/
@@ -14,7 +15,6 @@
     color:white;
     margin: auto;
     font-size: 40px;
-    font-family: monospace;
     position: relative;
     text-align: center;
     top: 100%;
@@ -26,25 +26,34 @@
 
 
 
-/*Menu boc model configuration*/
+/*Menu box model configuration*/
 div#menu{
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
+    box-sizing: border-box;
+    margin: 5em auto;
+    font-size: 20px;
+    color:white;
+    text-align:center;
+    text-decoration: none;
     top: 280px;
-    width: 70%;
+    width:70%;
 
+}
+
+/*removes the underline beneath links*/
+a{
+    text-decoration: none;
+    color:black;
 }
 
 
 .description{
     box-sizing:border-box;
-    background-color:#C0C0C0;
+    background-color:#C2C0C0;
     color:white;
     position:relative;
     margin:auto;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     height: 300px;
     width: 100%;
     padding:10% 0;
