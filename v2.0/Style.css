@@ -25,8 +25,9 @@
 
 
 
-/*Menu box model configuration*/
-div#menu{
+/*Top menu box model configuration*/
+div#topmenu{
+    
     box-sizing: border-box;
     margin: 5em auto;
     font-size: 20px;
@@ -38,22 +39,25 @@ div#menu{
 
 }
 
+
 /*removes the underline beneath links*/
 .option{
     text-decoration: none;
     color:black;
 }
 
-
+/*style when mouse hovers over menu*/
 a:hover{
     color:black;
     background-color:lightslategrey;
 }
 
+/*self description*/
 
 .description{
     box-sizing:border-box;
-    background-color:#C2C0C0;
+    background:url("http://upload.wikimedia.org/wikipedia/commons/6/6c/Mount_Royal_Montreal_Lookout.jpg") no-repeat center center;
+    background-size: cover;
     color:white;
     position:relative;
     margin:auto;
@@ -63,6 +67,20 @@ a:hover{
     width: 100%;
     padding:10% 0;
 }
+
+
+/*Education panel*/
+.education{
+    box-sizing: border-box;
+    height: 75%;
+    width:100%;
+    background:url("") no-repeat center center;
+    background-size: cover;
+}
+
+
+
+
 
 
 .bottomMenu{
