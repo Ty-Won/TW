@@ -32,13 +32,11 @@ div#topmenu{
     top: 280px;
     width:100%;
     text-align:center;
-
 }
 
 
 /*removes the underline beneath links*/
 .option{
-    
     font-size: 20px;
     text-decoration: none;
     color:black;
@@ -60,8 +58,6 @@ a:hover{
 /*self description background layout of montreal*/
 
 .description-background{
-    
-
     box-sizing:border-box;
     background:url("http://upload.wikimedia.org/wikipedia/commons/6/6c/Mount_Royal_Montreal_Lookout.jpg") no-repeat center center;
     background-size: cover;
@@ -79,7 +75,6 @@ a:hover{
     text-align: center;
     color:rgb(255,255,255);
     background-color: rgba(0, 0, 0,0.4)
-    
 }
 
 
@@ -97,8 +92,13 @@ a:hover{
 
 
 
-
-.bottomMenu{
+/*Bottom menu*/
+div#bottom-Menu{
+    box-sizing: border-box;
+    margin: 0.5em 0 0.5em 0;
+    background-color:white;
     text-decoration: none;
-    color:black;
+    top: 280px;
+    width:100%;
+    text-align:center;
 }
