@@ -35,14 +35,17 @@ div#topmenu{
     text-decoration: none;
     top: 280px;
     width:100%;
+    
 
 }
 
 
 /*removes the underline beneath links*/
 .option{
+    display: inline;
     text-decoration: none;
     color:black;
+    margin-left: 2.5em;
 }
 
 /*style when mouse hovers over menu*/
