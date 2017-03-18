@@ -54,6 +54,8 @@ a:hover{
     background-color:lightslategrey;
 }
 
+
+
 /*self description*/
 
 .description-background{
@@ -63,7 +65,7 @@ a:hover{
     background:url("http://upload.wikimedia.org/wikipedia/commons/6/6c/Mount_Royal_Montreal_Lookout.jpg") no-repeat center center;
     background-size: cover;
     position:relative;
-    margin:auto;
+    margin:1 em auto;
     text-align: center;
     font-size: 20px;
     height: 300px;
