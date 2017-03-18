@@ -2,7 +2,7 @@
 
 
 *{
-    /*border: 1px solid black;*/
+    /*border: 1px solid red;*/
     margin:0;
     padding:0;
     font-family: 'Lato', sans-serif;
@@ -12,9 +12,7 @@
 #Greeting{
     box-sizing: border-box;
     color:white;
-    margin: auto;
     font-size: 40px;
-    position: relative;
     text-align: center;
     top: 100%;
     width: 100%;
@@ -28,25 +26,28 @@
 /*Top menu box model configuration*/
 div#topmenu{
     box-sizing: border-box;
-    margin: 0.5em auto;
-    font-size: 20px;
-    color:white;
-    text-align:center;
+    margin: 0.5em 0 0.5em 0;
+    background-color:white;
     text-decoration: none;
     top: 280px;
     width:100%;
-    
+    text-align:center;
 
 }
 
 
 /*removes the underline beneath links*/
 .option{
-    display: inline;
+    
+    font-size: 20px;
     text-decoration: none;
     color:black;
-    margin-left: 2.5em;
+    padding:0 0.5em;
+    margin: auto 0.5em;
 }
+
+
+
 
 /*style when mouse hovers over menu*/
 a:hover{
@@ -56,7 +57,7 @@ a:hover{
 
 
 
-/*self description*/
+/*self description background layout of montreal*/
 
 .description-background{
     
@@ -65,17 +66,20 @@ a:hover{
     background:url("http://upload.wikimedia.org/wikipedia/commons/6/6c/Mount_Royal_Montreal_Lookout.jpg") no-repeat center center;
     background-size: cover;
     position:relative;
-    margin:1 em auto;
-    text-align: center;
-    font-size: 20px;
     height: 300px;
     width: 100%;
-    padding:10% 0;
+    padding:15% 0;
+    margin: 3em 0;
 }
 
+
+/*The actual description of me*/
 .description{
+    font-size: 20px;
+    text-align: center;
     color:rgb(255,255,255);
-    background-color: rgba(0, 0, 0,0.2)
+    background-color: rgba(0, 0, 0,0.4)
+    
 }
 
 
