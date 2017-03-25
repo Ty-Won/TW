@@ -81,12 +81,19 @@ a:hover{
 
 /*Education panel*/
 .education{
-    box-sizing: border-box;
-    height: 75%;
-    width:100%;
-    background:url("") no-repeat center center;
-    background-size: cover;
+    margin: 4em 0;
 }
+
+/*McGill University styling*/
+#university{
+
+}
+
+/*Marionopolis panel description*/
+#college{
+
+}
+
 
 
 
