@@ -78,6 +78,12 @@ a:hover{
 }
 
 
+/*goal styling*/
+.goal{
+    box-sizing:border-box;
+    margin: 3em 0;
+}
+
 
 /*Education panel*/
 .education{
@@ -86,12 +92,12 @@ a:hover{
 
 /*McGill University styling*/
 #university{
-
+background-color: red;
 }
 
 /*Marionopolis panel description*/
 #college{
-
+background-color: navy;
 }
 
 
