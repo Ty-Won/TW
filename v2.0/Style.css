@@ -6,7 +6,6 @@
     margin:0;
     padding:0;
     font-family: 'Lato', sans-serif;
-    background-color: white;
 }
 
 /*Headline for beginning of website*/
@@ -54,6 +53,15 @@ a:hover{
 }
 
 
+/* not sure......
+#description-block{
+    padding: 3em 3em;
+    background-color: #edeeef;
+}
+*/
+
+
+
 
 /*self description background layout of montreal*/
 
@@ -66,10 +74,11 @@ a:hover{
     width: 100%;
     padding:15% 0;
     margin: 3em 0;
+
 }
 
 
-/*The actual description of me*/
+/*The quick description text of me*/
 .description{
     font-size: 20px;
     text-align: center;
@@ -77,29 +86,51 @@ a:hover{
     background-color: rgba(0, 0, 0,0.4)
 }
 
+/*NEED TO FX margin issues*/
 
-/*goal styling*/
+
+
+/*goal styling paragraph*/
 .goal{
+    padding: 1em 1em;
+    background-color: #353439;
     box-sizing:border-box;
     margin: 3em 0;
+   
 }
 
 
 /*Education panel*/
 .education{
-    margin: 4em 0;
+    padding: 4em 0em;
 }
 
 /*McGill University styling*/
 #university{
-background-color: red;
+    box-sizing: border-box;
+    
+    padding: 9em 0;
+    text-align: center;
+    color:white;
+    background-color: red;
+
 }
 
 /*Marionopolis panel description*/
 #college{
-background-color: navy;
+    color: black;
+    text-align: center;
+    background-color: #FFEEEF;
 }
 
+
+
+/*Have to make the bottom black
+.bot-block{
+    background-color: #353439;
+}
+
+*/
 
 
 
