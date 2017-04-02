@@ -108,13 +108,19 @@ a:hover{
 /*McGill University styling*/
 #university{
     box-sizing: border-box;
-    
-    padding: 9em 0;
+    padding: 4em 0;
     text-align: center;
     color:white;
     background-color: red;
 
 }
+
+#university img{
+    width: 600px;
+    height: 150px;
+}
+
+
 
 /*Marionopolis panel description*/
 #college{
