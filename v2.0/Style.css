@@ -116,8 +116,8 @@ a:hover{
 }
 
 #university img{
-    width: 600px;
-    height: 150px;
+    width: 250px;
+    height: auto;
 }
 
 
@@ -127,6 +127,12 @@ a:hover{
     color: black;
     text-align: center;
     background-color: #FFEEEF;
+}
+
+#college p{
+    padding: auto auto;
+    margin: 1em auto;
+    width: 400px;
 }
 
 
@@ -143,7 +149,7 @@ a:hover{
 
 /*FIX MENU ALIGNMENT*/
 /*Bottom menu*/
-div#bottom-Menu{
+div #bottom-Menu{
     box-sizing: border-box;
     margin: 0.5em 0 0.5em 0;
     text-decoration: none;
