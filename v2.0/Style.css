@@ -40,7 +40,7 @@ div#topmenu{
     text-decoration: none;
     color:black;
     padding:0 0.5em;
-    margin: auto 0.5em;
+    margin: auto 0;
 }
 
 
@@ -102,7 +102,7 @@ a:hover{
 
 /*Education panel*/
 .education{
-    padding: 4em 0em;
+    padding: 4em 0em 0em 0em;
 }
 
 /*McGill University styling*/
@@ -123,13 +123,18 @@ a:hover{
 
 
 /*Marionopolis panel description*/
-#college{
-    color: black;
-    text-align: center;
-    background-color: #FFEEEF;
+#college img{
+    box-sizing: border-box;
+    align-content: center;
+    width: 220px;
+    height: auto;
+    margin:1em auto;
+    
 }
 
 #college p{
+    color: black;
+    text-align: center;
     padding: auto auto;
     margin: 1em auto;
     width: 400px;
@@ -137,24 +142,16 @@ a:hover{
 
 
 
-/*Have to make the bottom black
+/*Have to make the bottom black*/
 .bot-block{
     background-color: #353439;
 }
 
-*/
 
-
-
-
-/*FIX MENU ALIGNMENT*/
 /*Bottom menu*/
 div #bottom-Menu{
     box-sizing: border-box;
-    margin: 0.5em 0 0.5em 0;
     text-decoration: none;
-    top: 280px;
-    width:100%;
     text-align:center;
 }
 
