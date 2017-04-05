@@ -95,11 +95,14 @@ a:hover{
 
 
 /*goal styling paragraph*/
-.goal{
+.goal p{
     padding: 1em 1em;
+    text-align: center;
+    color:white;
     background-color: #353439;
     box-sizing:border-box;
-    margin: 3em 0;
+    margin: 3em auto;
+    width: 500px;
    
 }
 
@@ -109,20 +112,57 @@ a:hover{
     padding: 4em 0em 0em 0em;
 }
 
+
+
+/*needs fixing ***********************/
 /*McGill University styling*/
+/*
 #university{
     box-sizing: border-box;
-    padding: 5em 50%;
-    text-align: center;
-    color:white;
+    padding: 15% 3em;
     background:url(https://c1.staticflickr.com/5/4015/4252681931_7096f40fc0_b.jpg) no-repeat center center;
-    background-size: cover;
 
 }
 
 #university img{
-    width: 250px;
+    box-sizing: border-box;
+    align-content: center;
+    width: 220px;
     height: auto;
+    margin:1em auto;
+    
+}
+
+#university p{
+    color:white;
+    background-color: rgba(0, 0, 0,0.4);
+    width: 500px;
+    text-align: center;
+}
+*/
+#university {
+    color: white;
+    text-align: center;
+    margin: 1em auto;
+    box-sizing: border-box;
+    padding: 15% 3em;
+    background:url(https://c1.staticflickr.com/5/4015/4252681931_7096f40fc0_b.jpg) no-repeat center center;
+}
+
+#university img{
+    box-sizing: border-box;
+    align-content: center;
+    width: 220px;
+    height: auto;
+    margin:1em auto;
+    
+}
+
+#university p{
+    width: 500px;
+    padding: 1em 2em;
+    margin:0 auto;
+    background-color: rgba(0,0,0,0.5);
 }
 
 
@@ -140,8 +180,7 @@ a:hover{
 #college {
     color: black;
     text-align: center;
-    padding: auto auto;
-    margin: 1em auto;
+    margin: 3em auto;
     width: 400px;
 }
 
@@ -158,6 +197,7 @@ div #bottom-Menu{
     box-sizing: border-box;
     text-decoration: none;
     text-align:center;
+
 }
 
 /*Bottom icon links*/
