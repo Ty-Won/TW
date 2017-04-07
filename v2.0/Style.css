@@ -8,9 +8,33 @@
     font-family: 'Lato', sans-serif;
 }
 
+
+/* electric circuit backgroun*/
 body{
     background: url(http://apartment3k.com/wp-content/uploads/2013/09/seamless-pattern-of-circuit-board-grey.png) repeat center center;
 }
+
+
+/* development for the flashing words
+.blink_text{   
+  animation-duration: 800ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+*/
+
+
 
 /*Headline for beginning of website*/
 #Greeting{
@@ -44,6 +68,8 @@ div#topmenu{
     text-decoration: none;
     color:black;
     padding:0 0.5em;
+    border-bottom: 1px solid transparent;
+    transition:border 0.5s ease-out;
     margin: auto 0;
 }
 
