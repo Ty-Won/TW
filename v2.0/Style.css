@@ -9,11 +9,6 @@
 }
 
 
-/* electric circuit backgroun*/
-body{
-    background: url(http://apartment3k.com/wp-content/uploads/2013/09/seamless-pattern-of-circuit-board-grey.png) repeat center center;
-}
-
 
 /* development for the flashing words
 .blink_text{   
@@ -45,8 +40,13 @@ body{
     top: 100%;
     width: 100%;
     padding:25% 25%;
-    background: url("http://hd-wall-papers.com/images/wallpapers/background-image-laptop/background-image-laptop-3.jpg") no-repeat center center;
+    background-image: url("http://hd-wall-papers.com/images/wallpapers/background-image-laptop/background-image-laptop-3.jpg");
     background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.85;
+    position: relative;
+    
 }
 
 
@@ -91,23 +91,6 @@ a:hover{
 */
 
 
-
-
-/*self description background layout of montreal*/
-
-.description-background{
-    box-sizing:border-box;
-    background:url("http://upload.wikimedia.org/wikipedia/commons/6/6c/Mount_Royal_Montreal_Lookout.jpg") no-repeat center center;
-    background-size: cover;
-    position:relative;
-    height: 300px;
-    width: 100%;
-    padding:20% 0;
-    margin: 6em 0;
-
-}
-
-
 /*The quick description text of me*/
 .description{
     font-size: 20px;
@@ -115,6 +98,25 @@ a:hover{
     color:rgb(255,255,255);
     background-color: rgba(0, 0, 0,0.4)
 }
+
+/*self description background layout of montreal*/
+
+.description-background{
+    box-sizing:border-box;
+    background-image:url("http://upload.wikimedia.org/wikipedia/commons/6/6c/Mount_Royal_Montreal_Lookout.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position:relative;
+    height: 300px;
+    width: 100%;
+    padding:20% 0;
+    
+
+}
+
+
+
 
 /*NEED TO FX margin issues*/
 
