@@ -40,7 +40,7 @@
     top: 100%;
     width: 100%;
     padding:25% 25%;
-    background-image: url("http://hd-wall-papers.com/images/wallpapers/background-image-laptop/background-image-laptop-3.jpg");
+    background: url("welcome.jpeg") no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
