@@ -40,7 +40,7 @@
     top: 100%;
     width: 100%;
     padding:25% 25%;
-    background: url("welcome.jpeg") no-repeat;
+    background-image: url("file:///C:/Users/tyron/Desktop/Projects/TW%20web/images/welcome.jpeg");
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
