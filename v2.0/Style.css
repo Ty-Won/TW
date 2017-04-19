@@ -40,8 +40,8 @@
     top: 100%;
     width: 100%;
     padding:25% 25%;
+    background-size: cover;
     background-image: url("file:///C:/Users/tyron/Desktop/Projects/TW%20web/images/welcome.jpeg");
-    
     background-position: center;
     background-attachment: fixed;
     opacity: 0.85;
@@ -104,9 +104,9 @@ a:hover{
 .description-background{
     box-sizing:border-box;
     background-image:url("http://upload.wikimedia.org/wikipedia/commons/6/6c/Mount_Royal_Montreal_Lookout.jpg");
-    
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
     position:relative;
     height: 300px;
     width: 100%;
