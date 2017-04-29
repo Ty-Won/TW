@@ -69,7 +69,7 @@ div#topmenu{
     color:black;
     padding:0 0.5em;
     border-bottom: 1px solid transparent;
-    transition:border 0.5s ease-out;
+    transition:border 0.1s ease-out;
     margin: auto 0;
 }
 
@@ -198,7 +198,7 @@ a:hover{
 /*Marionopolis panel description*/
 #college img{
     box-sizing: border-box;
-    align-content: center;
+    display: block;
     width: 220px;
     height: auto;
     margin:1em auto;
@@ -210,6 +210,17 @@ a:hover{
     text-align: center;
     margin: 3em auto;
     width: 400px;
+}
+
+/*need to do*/
+.projects{
+    text-align: center;
+}
+
+.projects img{
+    display:inline-block;
+    margin: 0 auto;
+   
 }
 
 
@@ -229,10 +240,14 @@ div #bottom-Menu{
 }
 
 /*Bottom icon links*/
+ .linkIcons{
+      text-align: center;
+ }
+
 .linkIcons img{
     box-sizing: border-box;
     width: 4em;
     height:4em;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
 }
