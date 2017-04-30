@@ -1,3 +1,13 @@
-function blink() { 
-  $('.blink_me').fadeOut(500).fadeIn(500, blink); 
+/*checks if it prints in log and alerts to know if the script file 
+is linked to the html file successfully*/
+console.log("hello");
+
+
+function main(){
+ 
+  $("#Greeting").hide();
+  $("#Greeting").fadeIn(1000);
+  console.log("made it");
 };
+
+$(document).ready(main);
