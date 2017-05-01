@@ -6,6 +6,7 @@ console.log("hello");
 function main(){
  
   $("#Greeting").hide();
+  $("header.container").hide();
   $("#Greeting").fadeIn(2000);
   console.log("made it");
 };
