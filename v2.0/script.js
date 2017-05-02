@@ -5,8 +5,9 @@ console.log("hello");
 
 function main(){
  
-  $("#Greeting").hide();
-  $("#Greeting").fadeIn(1000);
+  $("#Greeting,#topmenu").hide();
+  $("#Greeting").fadeIn(2000);
+  $("#topmenu").fadeIn(4000);
   console.log("made it");
 };
 
