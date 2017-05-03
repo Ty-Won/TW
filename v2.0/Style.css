@@ -19,10 +19,11 @@
     top: 100%;
     width: 100%;
     padding:25% 25%;
+    margin: 0 0;
     background-size: cover;
     background-image: url("file:///C:/Users/tyron/Desktop/Projects/TW%20web/images/welcome.jpeg");
     background-position: center;
-    background-attachment: fixed;
+
     opacity: 0.85;
     position: relative;
     
@@ -56,10 +57,16 @@ nav#topmenu{
 
 
 /*style when mouse hovers over menu*/
-a:hover{
+a.option:hover{
     color:black;
     background-color:lightslategrey;
 }
+
+a.option:active{
+    position:relative;
+    top: 1px;
+}
+
 
 
 /* not sure......
@@ -87,7 +94,7 @@ a:hover{
     background-attachment: fixed;
     background-size: cover;
     position:relative;
-    height: 300px;
+    height: 20em;
     width: 100%;
     padding:20% 0;
     
