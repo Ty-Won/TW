@@ -1,19 +1,9 @@
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
-
-  nav .brand-logo {
-    position: absolute;
-    color: #fff;
-    display: inline-block;
-    font-size: 2.1rem;
-    padding: 0;
-    white-space: nowrap;
-    margin-left: 1em;
+.carouselImage{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  max-height: 100%;
 }
