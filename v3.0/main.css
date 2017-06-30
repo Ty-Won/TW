@@ -1,0 +1,88 @@
+/*navbar*/
+
+
+
+/*jumbotron*/
+.jumbotron{
+  height: 40em!important;
+}
+
+.display-3{
+  text-align: center;
+}
+
+
+.downButton{
+  text-align: center;
+  border-radius: 50%;
+}
+
+.descent {
+  display:block;
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  border: 1px solid red;
+  background: white;
+  margin: 0 auto;
+  
+}
+
+.descent:hover{
+  animation: halo 10s infinite;
+
+}
+
+.fa-chevron-down{
+  color: grey;
+  padding: 0.9em 0;
+  
+  
+}
+
+@keyframes halo{
+  0%{
+    border: 2px solid #4285F4;
+    color: #4285F4;
+  }
+  15%{
+    border: 2px solid #4285F4;
+    color: #4285F4;
+  }
+
+  25%{
+    border: 2px solid #EA4335;
+    color: #EA4335;
+  }
+
+  45%{
+    border: 2px solid #EA4335;
+    color: #EA4335;
+  }
+
+  50%{
+    border: 2px solid #FBBC05;
+    color: #FBBC05;
+  }
+
+  70%{
+    border: 2px solid #FBBC05;
+    color: #FBBC05;
+    
+    
+  }
+
+  75%{
+    border: 2px solid #34A853;
+  }
+
+  95%{
+    border: 2px solid #34A853;
+  }
+
+  100%{
+    border: 2px solid #EA4335;
+  }
+
+
+}

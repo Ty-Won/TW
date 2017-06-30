@@ -13,12 +13,14 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
     crossorigin="anonymous"></script>
+<link href="main.css" type="text/css" rel="stylesheet">
 
 
+    <!--project card links-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-    <link href="ProfileCard.css" type="text/css" rel="stylesheet">
-    <link href="colorThemes.css" type="text/css" rel="stylesheet">
+    <link href="ProjectCards/ProfileCard.css" type="text/css" rel="stylesheet">
+    <link href="ProjectCards/colorThemes.css" type="text/css" rel="stylesheet">
     <!--<link href="cssLess.less" type="text/css" rel="stylesheet/less">-->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -42,25 +44,26 @@
   </div>
 
   <div class="jumbotron">
-    <h1 class="display-3">>_Hello, world!</h1>
+    <h1 class="display-3"> >_Hello World! </h1>
     <p class="lead">
       I'm Tyrone, <br> Welcome :)
     </p>
     <hr class="my-4">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
+    <div class="lead downButton">
+      <a class="descent" href="#"><i class="fa fa-fw fa-chevron-down" aria-hidden="false"></i></a>
+    </div>
   </div>
 
 <section class="container">
 
+        <!--beginning of card row 1-->
         <div class="row active-with-click">
 
-            <!--Beginning of card-->
+            <!--Beginning of cards-->
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <!--insert change of color here-->
-                <article class="material-card Grey">
+                <article class="material-card Red">
                     <h2>
                         <a href="#"><span>Communeering</span></a>
                         <strong>
@@ -72,7 +75,7 @@
                     <div class="mc-content">
                         <div class="img-container">
                             <!-- gotta fix photo issues-->
-                            <img class="centerImage"src="http://www.dccomics.com/sites/default/files/GalleryComics_1920x1080_20160427_BM_Cv51_56f33d0526d1a5.59154201.jpg">
+                            <img class="centerImage"src="Images/Communeering.png">
                         </div>
 
                         <!--description that appears when the card is flipped-->
@@ -132,7 +135,7 @@
                 <!--insert change of color here-->
                 <article class="material-card Grey">
                     <h2>
-                        <a href="#"><span>The Batman</span></a>
+                        <a href="#"><span>Star Wars The last Jedi</span></a>
                         <strong>
                         <i class="fa fa-fw fa-graduation-cap"></i>
                             Dark Knight
@@ -202,7 +205,7 @@
                 <!--insert change of color here-->
                 <article class="material-card Grey">
                     <h2>
-                        <a href="#"><span>The Batman</span></a>
+                        <a href="#"><span>LEV3RON</span></a>
                         <strong>
                         <i class="fa fa-fw fa-graduation-cap"></i>
                             Dark Knight
@@ -212,7 +215,7 @@
                     <div class="mc-content">
                         <div class="img-container">
                             <!-- gotta fix photo issues-->
-                            <img class="centerImage" src="http://www.dccomics.com/sites/default/files/GalleryComics_1920x1080_20160427_BM_Cv51_56f33d0526d1a5.59154201.jpg">
+                            <img class="centerImage" src="Images/LEV3RON.png">
                         </div>
 
                         <!--description that appears when the card is flipped-->
@@ -273,7 +276,229 @@
 
         </div>
 
-    </section>
+
+
+        <!--Beginning of card row 2-->
+        <div class="row active-with-click">
+
+            <!--Beginning of card 1-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <!--insert change of color here-->
+                <article class="material-card Grey">
+                    <h2>
+                        <a href="#"><span>IntelliCar</span></a>
+                        <strong>
+                        <i class="fa fa-fw fa-graduation-cap"></i>
+                            Connecting People One project at a time
+                        </strong>
+                    </h2>
+
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <!-- gotta fix photo issues-->
+                            <img class="centerImage"src="Images/Communeering.png">
+                        </div>
+
+                        <!--description that appears when the card is flipped-->
+                        <div class="mc-description">
+                            Bilionaire,Playboy,Genius,Master detective,Master Martial Artist Bilionaire,Playboy,Genius,Master detective,Master Martial
+                            Artist Bilionaire,Playboy,Genius,Master detective,Master Martial Artist Bilionaire,Playboy,Genius,Master
+                            detective,Master Martial Artist Bilionaire,Playboy,Genius,Master detective,Master Martial Artist
+                            Bilionaire,Playboy,Genius,Master detective,Master Martial Artist Bilionaire,Playboy,Genius,Master
+                            detective,Master Martial Artist
+                            <br>
+
+                            <!--skill tabs for the card-->
+                            <div id="skillTab">
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Martial Arts</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Gadgets</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">RICH AF</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Intelligent</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Detective</span>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <a rel="nofollow" rel="noreferrer" class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                    <div class="mc-footer">
+                        <h4>
+                            Ways to Connect
+                        </h4>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-user" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-facebook" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-github" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-linkedin" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-link" href="#"></a>
+
+                    </div>
+                </article>
+
+            </div><!--end of card-->
+
+            <!--card 2-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <!--insert change of color here-->
+                <article class="material-card Grey">
+                    <h2>
+                        <a href="#"><span>Star Wars The last Jedi</span></a>
+                        <strong>
+                        <i class="fa fa-fw fa-graduation-cap"></i>
+                            Dark Knight
+                        </strong>
+                    </h2>
+
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <!-- gotta fix photo issues-->
+                            <img class="centerImage" src="http://www.dccomics.com/sites/default/files/GalleryComics_1920x1080_20160427_BM_Cv51_56f33d0526d1a5.59154201.jpg">
+                        </div>
+
+                        <!--description that appears when the card is flipped-->
+                        <div class="mc-description">
+                            Bilionaire,Playboy,Genius,Master detective,Master Martial Artist Bilionaire,Playboy,Genius,Master detective,Master Martial
+                            Artist Bilionaire,Playboy,Genius,Master detective,Master Martial Artist Bilionaire,Playboy,Genius,Master
+                            detective,Master Martial Artist Bilionaire,Playboy,Genius,Master detective,Master Martial Artist
+                            Bilionaire,Playboy,Genius,Master detective,Master Martial Artist Bilionaire,Playboy,Genius,Master
+                            detective,Master Martial Artist
+                            <br>
+
+                            <!--skill tabs for the card-->
+                            <div id="skillTab">
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Martial Arts</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Gadgets</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">RICH AF</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Intelligent</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Detective</span>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <a rel="nofollow" rel="noreferrer" class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                    <div class="mc-footer">
+                        <h4>
+                            Ways to Connect
+                        </h4>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-user" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-facebook" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-github" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-linkedin" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-link" href="#"></a>
+
+                    </div>
+                </article>
+
+            </div>
+
+            <!--card 3-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <!--insert change of color here-->
+                <article class="material-card Grey">
+                    <h2>
+                        <a href="#"><span>LEV3RON</span></a>
+                        <strong>
+                        <i class="fa fa-fw fa-graduation-cap"></i>
+                            Dark Knight
+                        </strong>
+                    </h2>
+
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <!-- gotta fix photo issues-->
+                            <img class="centerImage" src="Images/LEV3RON.png">
+                        </div>
+
+                        <!--description that appears when the card is flipped-->
+                        <div class="mc-description">
+                            Bilionaire,Playboy,Genius,Master detective,Master Martial Artist Bilionaire,Playboy,Genius,Master detective,Master Martial
+                            Artist Bilionaire,Playboy,Genius,Master detective,Master Martial Artist Bilionaire,Playboy,Genius,Master
+                            detective,Master Martial Artist Bilionaire,Playboy,Genius,Master detective,Master Martial Artist
+                            Bilionaire,Playboy,Genius,Master detective,Master Martial Artist Bilionaire,Playboy,Genius,Master
+                            detective,Master Martial Artist
+                            <br>
+
+                            <!--skill tabs for the card-->
+                            <div id="skillTab">
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Martial Arts</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Gadgets</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">RICH AF</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Intelligent</span>
+                                </span>
+
+                                <span class="mdl-chip">
+                                <span class="mdl-chip__text">Detective</span>
+                                </span>
+                            </div>
+
+                    
+                        </div>
+
+                    </div>
+                    <a rel="nofollow" rel="noreferrer" class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                    <div class="mc-footer">
+                        <h4>
+                            Ways to Connect
+                        </h4>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-user" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-facebook" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-github" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-linkedin" href="#"></a>
+                        <a rel="nofollow" rel="noreferrer" class="fa fa-fw fa-link" href="#"></a>
+
+                    </div>
+                </article>
+
+            </div>
+
+
+
+        </div><!--end of car row 2-->
+
+
+    </section><!--End of projec section-->
 
 
 
