@@ -6,7 +6,7 @@
 .jumbotron{
   height: 40em!important;
   background-color: white !important;
-  box-shadow: inset 2em 2em 2em 2em #888888;
+  box-shadow: 2em 2em 2em 2em #888888;
 
 }
 

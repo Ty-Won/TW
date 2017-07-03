@@ -1,3 +1,60 @@
+.material-card.Star_Wars h2 {
+  background-color: #212121;
+  color: yellow;
+}
+.material-card.Star_Wars h2:after {
+  border-top-color: #F44336;
+  border-right-color: #F44336;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.material-card.Star_Wars h2:before {
+  border-top-color: transparent;
+  border-right-color: #B71C1C;
+  border-bottom-color: #B71C1C;
+  border-left-color: transparent;
+}
+.material-card.Star_Wars.mc-active h2:before {
+  border-top-color: transparent;
+  border-right-color: #F44336;
+  border-bottom-color: #F44336;
+  border-left-color: transparent;
+}
+.material-card.Star_Wars.mc-active h2:after {
+  border-top-color: #B71C1C;
+  border-right-color: #B71C1C;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.material-card.Star_Wars .mc-btn-action {
+  background-color: #F44336;
+}
+.material-card.Star_Wars .mc-btn-action:hover {
+  background-color: #B71C1C;
+}
+.material-card.Star_Wars .mc-footer h4 {
+  color: #B71C1C;
+}
+.material-card.Star_Wars .mc-footer a {
+  background-color: #B71C1C;
+}
+.material-card.Star_Wars.mc-active .mc-content {
+  background-color: #FFEBEE;
+}
+.material-card.Star_Wars.mc-active .mc-footer {
+  background-color: yellow;
+}
+.material-card.Star_Wars.mc-active .mc-btn-action {
+  border-color: yellow;
+}
+
+
+
+
+
+
+
+
 .material-card.Red h2 {
   background-color: #F44336;
 }
