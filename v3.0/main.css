@@ -15,7 +15,7 @@
 }
 
 
-.downButton{
+.down-button{
   text-align: center;
   border-radius: 50%;
 }
@@ -93,11 +93,11 @@
 
 /*education section*/
 
-.educationHeader{
+.education-header{
   font-size: 2.5em;
 }
 
-.education_logo{
+.education-logo{
   width:10em;
   height: auto;
 

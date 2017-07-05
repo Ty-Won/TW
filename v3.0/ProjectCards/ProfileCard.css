@@ -4,9 +4,8 @@ a{
   color: white !important;
 }
 
-.centerImage{
+.center-image{
   position: absolute;
-  
    left: 50%;
    top: 50%;
    -webkit-transform: translateY(-50%) translateX(-50%);
@@ -278,7 +277,7 @@ a{
   overflow-y: scroll;
 }
 
-#skillTab{
+#skill-tab{
   margin: 1em 0;
 }
 
