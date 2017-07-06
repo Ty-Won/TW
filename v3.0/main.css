@@ -1,12 +1,24 @@
 /*navbar*/
+.navbar {
+    position: relative;
+    min-height: 50px;
 
+    margin: 0em 0em !important;
+    border: 1px solid transparent;
+}
 
 
 /*jumbotron*/
 .jumbotron{
   height: 40em!important;
-  background-color: white !important;
+  background: url("Images/Snow-mountain-peaks.jpg") center no-repeat;
   box-shadow: 2em 2em 2em 2em #888888;
+
+}
+
+.jumbotron-welcome-msg{
+  color: white;
+  text-align: center;
 
 }
 
