@@ -1,29 +1,24 @@
-/*navbar*/
-.navbar {
-    position: relative;
-    min-height: 50px;
 
-    margin: 0em 0em !important;
-    border: 1px solid transparent;
-}
+/*issues responsiveness on the jumbotron font and text size*/
+
+
+/*navbar*/
+
 
 
 /*jumbotron*/
 .jumbotron{
-  height: 40em!important;
-  background: url("Images/Snow-mountain-peaks.jpg") center no-repeat;
-  box-shadow: 2em 2em 2em 2em #888888;
+  height: 55em!important;
+  background: url("#") center no-repeat;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  margin-bottom: 0em !important;
 
 }
 
 .jumbotron-welcome-msg{
   color: white;
-  text-align: center;
-
-}
-
-.display-3{
-  text-align: center;
+  position: relative;
+  top:45%;
 }
 
 
@@ -33,18 +28,20 @@
 }
 
 .descent {
+  position: relative;
+  top:-4em;
   display:block;
   height: 3em;
   width: 3em;
   border-radius: 50%;
-  border: 1px solid red;
+  border: 1px solid grey;
   background: white;
   margin: 0 auto;
   
 }
 
 .descent:hover{
-  animation: halo 10s infinite;
+  animation: halo 5s infinite;
 
 }
 
