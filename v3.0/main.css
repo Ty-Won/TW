@@ -4,32 +4,51 @@
 
 /*navbar*/
 
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: white;
+  position: fixed;
+}
 
 
 /*jumbotron*/
 .jumbotron{
-  height: 55em!important;
-  background: url("#") center no-repeat;
+  height: 50em!important;
+  background-color: #ddd !important;
   font-family: "Roboto","Helvetica","Arial",sans-serif;
   margin-bottom: 0em !important;
 
 }
 
 .jumbotron-welcome-msg{
+  display: flex;
   color: white;
   position: relative;
   top:45%;
+  animation: slide-In 2s 1;
 }
 
 
-.down-button{
+@keyframes slide-In{
+  from{left: -100em;}
+  to{left: 0em;}
+}
+
+
+
+.jumbotron-welcome-msg>h1{
+  font-weight: 300;
+}
+
+.lead{
   text-align: center;
-  border-radius: 50%;
+  background-color: #ddd;
+  margin-bottom: 0em !important;
 }
 
 .descent {
+  top: -1em;
   position: relative;
-  top:-4em;
   display:block;
   height: 3em;
   width: 3em;
@@ -57,47 +76,32 @@
     border: 2px solid #4285F4;
     color: #4285F4;
   }
-  15%{
-    border: 2px solid #4285F4;
-    color: #4285F4;
-  }
-
   25%{
     border: 2px solid #EA4335;
     color: #EA4335;
   }
-
-  45%{
-    border: 2px solid #EA4335;
-    color: #EA4335;
-  }
-
   50%{
     border: 2px solid #FBBC05;
     color: #FBBC05;
   }
-
-  70%{
-    border: 2px solid #FBBC05;
-    color: #FBBC05;
-    
-    
-  }
-
   75%{
     border: 2px solid #34A853;
   }
-
-  95%{
-    border: 2px solid #34A853;
-  }
-
   100%{
     border: 2px solid #EA4335;
   }
 
 
 }
+
+/*about*/
+.card-img-overlay{
+  
+  top:30%;
+}
+
+
+
 
 
 /*education section*/
