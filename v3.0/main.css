@@ -25,11 +25,11 @@
   color: white;
   position: relative;
   top:45%;
-  animation: slide-In 2s 1;
+  animation: slide-from-left 2s 1;
 }
 
 
-@keyframes slide-In{
+@keyframes slide-from-left{
   from{left: -100em;}
   to{left: 0em;}
 }
@@ -100,11 +100,17 @@
   top:30%;
 }
 
-#about > h3{
-  font-size: 4em;
+.about{
+  font-size: 3em;
   position: relative;
-  top: 2.5em;
-  color: darkgray
+  top:3.5em;
+  color: darkgray;
+  animation: slide-up 2s 1;
+}
+
+@keyframes slide-up{
+  from{top:6em;}
+  to{top:3.5em;}
 }
 
 
