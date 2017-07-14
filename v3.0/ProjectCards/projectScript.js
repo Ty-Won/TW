@@ -13,7 +13,6 @@ $(function () {
                     .removeClass('fa-arrow-left')
                     .removeClass('fa-spin-fast')
                     .addClass('fa-bars');
-
             }, 800);
         } else {
             card.addClass('mc-active');
