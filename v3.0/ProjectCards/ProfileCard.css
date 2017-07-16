@@ -1,16 +1,18 @@
 
 
-a{
+.mc-btn-action,
+.project-links,
+.project-title{
   color: white !important;
 }
 
 .center-image{
   position: absolute;
-   left: 50%;
-   top: 50%;
-   -webkit-transform: translateY(-50%) translateX(-50%);
-   transform: translateY(-50%) translateX(-50%);
-   max-height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  max-height: 100%;
 }
 /* credits to https://codepen.io/marlenesco/pen/NqOozj/ */
 @import "https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700";

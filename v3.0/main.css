@@ -129,19 +129,63 @@
 
 /*doesnt work for mobile fix*/
 #university{
-  background: url("Images/McGill_martlet.png") no-repeat right;
+  background:url("Images/McGill_martlet.png") no-repeat center;  
+  transition: all 1.5s;
+  background-size: contain;
 }
 
 #university:hover{
-  animation: uni-animation 3s infinite;
-}
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url("Images/McGill_martlet.png") no-repeat;
+    background-size: contain;
 
-/*@keyframes uni-animation{
-  from{}
-  to{background-size: }
-}*/
+}
 
 #college{
-  background: url("Images/Marianopolis_logo.jpg") no-repeat right;
-  background-size: cover;
+  background:url("Images/Marianopolis_logo.jpg") no-repeat center;  
+  transition: all 1.5s;
+  background-size: contain;
 }
+
+#college:hover{
+      background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url("Images/Marianopolis_logo.jpg") no-repeat;
+    background-size: contain;
+
+}
+
+
+
+/*experience*/
+
+.experience-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: url('https://mcgilleus.ca/sites/default/files/portfolio-image/1_Main.png') center/cover;
+}
+.experience-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.experience-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+
