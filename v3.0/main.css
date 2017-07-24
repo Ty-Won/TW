@@ -19,9 +19,7 @@
   height: 50em!important;
   margin-bottom: 0em !important;
   font-family: "Roboto","Helvetica","Arial",sans-serif;
-  background-color: #ddd !important;
-
-
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("Images/Jumbotron_background.jpg") center/cover no-repeat;
 }
 
 .jumbotron-welcome-msg {
@@ -39,30 +37,23 @@
 }
 
 
-
-.lead {
-  text-align: center;
-  background-color: #ddd;
-  margin-bottom: 0em !important;
-}
-
 .descent {
-  top: -1em;
+  top: 24em;
   position: relative;
   display:block;
   height: 3em;
   width: 3em;
   border-radius: 50%;
-  border: 4px solid grey;
-  background: white;
+  border: 1.5px solid white;
   margin: 0 auto;
+  text-align: center;
   
 }
 
 .descent-hover { animation: halo 5s infinite; }
 
 .fa-chevron-down {
-  color: grey;
+  color: white;
   padding: 0.85em 0;
 }
 .fa-chevron-down-color { animation: chevron-color 5s infinite }
