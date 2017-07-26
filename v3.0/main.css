@@ -83,6 +83,36 @@
 .about-title { background-color: rgba(0, 0, 0, 0.05); } 
 .about-card-image { background: url("#") center no-repeat; }
 
+.hexagon-portrait {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #64C7CC;
+  margin: 86.60px 0;
+}
+
+.hexagon-portrait:before,
+.hexagon-portrait:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon-portrait:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #64C7CC;
+}
+
+.hexagon-portrait:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
+}
+
+
+
 /*education section*/
 
 .education-header { font-size: 2.5em; }
@@ -142,5 +172,7 @@
 }
 
 
+/*footer*/
+.footer-links { text-align: center; }
 
 

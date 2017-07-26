@@ -76,6 +76,7 @@
       <!--about-->
 
 
+
       <div class="about-margin-mod mdl-grid">
         <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--8-col">
           <div class="about-text mdl-card__supporting-text">
@@ -91,8 +92,8 @@
         </div>
 
         <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
-          <img class="about-card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ_MkHZ1soJMqSjieMnSMI5iTodOMR3h3B-MGjKeNv0XY56-VBUA"
-            alt="Tyrone Wong">
+
+          <div class="hexagon-portrait"></div>
         </div>
 
       </div>
@@ -126,25 +127,26 @@
       <!--end of education card-->
 
       <!-- experience-->
-      <div class="experience-card-image mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title mdl-card--expand"></div>
-        <div class="mdl-card__actions">
-          <span class="experience-card-image__filename">Image.jpg</span>
+      <div class="mdl-row">
+        <div class="experience-card-image mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title mdl-card--expand"></div>
+          <div class="mdl-card__actions">
+            <span class="experience-card-image__filename">Image.jpg</span>
+          </div>
+        </div>
+        <div class="experience-card-image mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title mdl-card--expand"></div>
+          <div class="mdl-card__actions">
+            <span class="experience-card-image__filename">Image.jpg</span>
+          </div>
+        </div>
+        <div class="experience-card-image mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title mdl-card--expand"></div>
+          <div class="mdl-card__actions">
+            <span class="experience-card-image__filename">Image.jpg</span>
+          </div>
         </div>
       </div>
-      <div class="experience-card-image mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title mdl-card--expand"></div>
-        <div class="mdl-card__actions">
-          <span class="experience-card-image__filename">Image.jpg</span>
-        </div>
-      </div>
-      <div class="experience-card-image mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title mdl-card--expand"></div>
-        <div class="mdl-card__actions">
-          <span class="experience-card-image__filename">Image.jpg</span>
-        </div>
-      </div>
-
 
       <!--contact form-->
       <form action="#">
@@ -158,12 +160,21 @@
       <footer class="mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
           <div class="mdl-logo">TW.io</div>
-          <ul class="mdl-mini-footer__link-list">
-            <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-university" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+          <div class="footer-links">
+            <ul class="mdl-mini-footer__link-list">
+              <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-university" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
 
-          </ul>
+            </ul>
+            <p>
+              TW.io @ copyright
+              <script type="text/javascript">
+                document.write(new Date().getFullYear());
+              </script>
+              <br> Owned by Tyrone Matthew Wong
+            </p>
+          </div>
         </div>
       </footer>
     </main>
