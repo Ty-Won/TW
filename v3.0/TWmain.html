@@ -51,15 +51,19 @@
     <div class="mdl-layout__drawer">
       <span class="mdl-layout-title">Welcome</span>
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Home</a>
-        <a class="mdl-navigation__link" href="" target="_blank">Resume</a>
-        <a class="mdl-navigation__link" href="">Contact</a>
+        <a class="mdl-navigation__link" href="#home-page">Home</a>
+        <a class="mdl-navigation__link" href="Contact/TW_CV2017.pdf" target="_blank">Resume</a>
+        <a class="mdl-navigation__link" id="contact-button" href="">Contact</a>
 
       </nav>
     </div>
     <main class="mdl-layout__content">
 
-      <div class="jumbotron">
+      <div id="contact-modal" class="modal">
+        <p>lol</p>
+      </div>
+
+      <div class="jumbotron" id="home-page">
 
         <div class="jumbotron-welcome-msg">
           <h1>
@@ -67,6 +71,7 @@
             <br> I'm Tyrone Wong, Welcome :)
           </h1>
         </div>
+
 
         <a class="descent" href="#"><i class="fa fa-fw fa-chevron-down" aria-hidden="false"></i></a>
 
@@ -78,7 +83,8 @@
 
 
       <div class="about-margin-mod mdl-grid">
-        <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--8-col">
+        <div class="about-description mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col">
+          <div class="hexagon-portrait"></div>
           <div class="about-text mdl-card__supporting-text">
             Based in Montreal
           </div>
@@ -91,13 +97,10 @@
           </div>
         </div>
 
-        <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
-
-          <div class="hexagon-portrait"></div>
-        </div>
 
       </div>
 
+    
       <!--education section-->
       <div class="card">
         <div class="card-header education-header">
@@ -168,11 +171,11 @@
 
             </ul>
             <p>
-              TW.io @ copyright
+              TW.io Created and Owned by Tyrone Wong  @ copyright
               <script type="text/javascript">
                 document.write(new Date().getFullYear());
               </script>
-              <br> Owned by Tyrone Matthew Wong
+
             </p>
           </div>
         </div>
