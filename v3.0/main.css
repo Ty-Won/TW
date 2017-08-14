@@ -10,9 +10,10 @@
   color: white;
 }
 
-.mdl-layout__obfuscator,.mdl-layout__obfuscator.is-visible{ background-color: transparent !important; }
 
 .mdl-layout__drawer { transition-duration: 0.5s !important; }
+
+
 
 /*modal section begins here*/
 .modal{ 
@@ -67,7 +68,7 @@
   
 }
 
-.descent-hover { animation: halo 5s infinite; }
+.descent-hover { animation: halo 2s infinite; }
 
 @keyframes halo {
 
@@ -80,7 +81,7 @@
   color: white;
   padding: 0.85em 0;
 }
-.fa-chevron-down-color { animation: chevron-color 5s infinite }
+.fa-chevron-down-color { animation: chevron-color 2s infinite }
 
 @keyframes chevron-color {
   0% { color: #aaa; }
@@ -101,39 +102,80 @@
 background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("Images/Montreal.jpg") center/cover no-repeat !important;
 }
 
-
-
-.hexagon-portrait {
+.hexagon {
   position: relative;
-  top: 5em;
   width: 200px; 
   height: 115.47px;
-  margin: 0 auto;
-  background-color: #64C7CC;
-  
-  
+  margin: 57.74px 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-VCcb_mrsPCwX2QgqGLQ6HYsiheBCym6cDbwcj9SY-fhPisJ);
+  background-size: auto 219.3931px;
+  background-position: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  border-left: solid 5px #ffffff;
+  border-right: solid 5px #ffffff;
 }
 
-.hexagon-portrait:before,
-.hexagon-portrait:after {
-   content: "";
+.hexTop,
+.hexBottom {
   position: absolute;
-  width: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 24.29px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-.hexagon-portrait:before {
- bottom: 100%;
-  border-bottom: 57.74px solid #64C7CC;
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 190.0000px;
+  height: 109.69655114602891px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
 }
 
-.hexagon-portrait:after {
-  top: 100%;
-  width: 0;
-  border-top: 57.74px solid #64C7CC;
+.hexTop {
+  top: -70.7107px;
+  border-top: solid 7.0711px #ffffff;
+  border-right: solid 7.0711px #ffffff;
 }
 
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -70.7107px;
+  border-bottom: solid 7.0711px #ffffff;
+  border-left: solid 7.0711px #ffffff;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 2.8868px;
+  left: 0;
+  width: 190.0000px;
+  height: 109.6966px;
+  z-index: 2;
+  background: inherit;
+}
 
 
 /*education section*/
@@ -176,19 +218,19 @@ background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("Images/
     background-size: contain;
 }
 
-/*experience*/
+/*project*/
 
-.experience-card-image.mdl-card {
+.project-card-image.mdl-card {
   width: 256px;
   height: 256px;
   background: url('https://mcgilleus.ca/sites/default/files/portfolio-image/1_Main.png') center/cover;
 }
-.experience-card-image > .mdl-card__actions {
+.project-card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
   background: rgba(0, 0, 0, 0.2);
 }
-.experience-card-image__filename {
+.project-card-image__filename {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
