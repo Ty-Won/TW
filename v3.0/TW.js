@@ -28,11 +28,11 @@ $(document).ready(function () {
   // });
 
   $('main').scroll(function () {
-    if ($('main').scrollTop() > 50) {
-      $('.mdl-layout__header.mdl-layout__header--transparent').css({ "background-color": "lightgrey !important" });
+    if ($('main').scrollTop() > 750) {
+      $('header').addClass("visible-navbar");
       console.log("yo");
     } else {
-      $('.mdl-layout__header.mdl-layout__header--transparent').css({ "background-color": "transparent" });
+      $('header').removeClass("visible-navbar");
       console.log("yoo");
     }
   });
