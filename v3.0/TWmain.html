@@ -64,14 +64,17 @@
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="#home-page">Home</a>
         <a class="mdl-navigation__link" href="Contact/TW_CV2017.pdf" target="_blank">Resume</a>
-        <a class="mdl-navigation__link" id="contact-button" href="">Contact</a>
+        <a class="mdl-navigation__link" id="contact-button" href="#">Contact</a>
 
       </nav>
     </div>
     <main class="mdl-layout__content">
 
-      <div id="contact-modal" class="modal">
-        <p>lol</p>
+      <div id="contact-modal" class="modal-container">
+        <div class="modal">
+          <img src="Images/Star_Wars.jpg" alt="holder">
+          <p>LOOOOOOOOOOOOOOOOOOOOOOOOLL</p>
+        </div>
       </div>
 
       <div class="jumbotron" id="home-page">
@@ -203,6 +206,22 @@
     </main>
 
   </div>
+
+
+  <!--needs fixing-->
+  <script>
+    //Modal js in development
+    $("#contact-button").click(function () {
+      $("#contact-modal").fadeIn(300);
+    });
+
+    $(window).click(function (event) {
+      var contactModal = $("#contact-modal");
+      if (event.target == contactModal) {
+        contactModal.hide();
+      };
+    });
+  </Script>
 
 
 </body>

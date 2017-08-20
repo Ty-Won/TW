@@ -15,17 +15,7 @@ $(document).ready(function () {
     });
 
 
-  //Modal js in development
-  // $("#contact-button").onClick(function(){
-  //   $("#contact-modal").fadeIn(300);
-  // });
 
-  // $(window).onClick(function(event){
-  //   var contactModal=$("#contact-modal");
-  //   if(event.target==contactModal){
-  //     contactModal.css("display:block;")
-  //   };
-  // });
 
   $('main').scroll(function () {
     if ($('main').scrollTop() > 750) {
@@ -37,6 +27,8 @@ $(document).ready(function () {
     }
   });
 });
+
+
 
 
 
