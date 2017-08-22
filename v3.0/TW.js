@@ -20,10 +20,8 @@ $(document).ready(function () {
   $('main').scroll(function () {
     if ($('main').scrollTop() > 750) {
       $('header').addClass("visible-navbar");
-      console.log("yo");
     } else {
       $('header').removeClass("visible-navbar");
-      console.log("yoo");
     }
   });
 });
