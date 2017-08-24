@@ -5,6 +5,8 @@
 add the slant opening
 */
 
+body{ color: #5a5a5a; }
+
 
 /*Navbar styling section begins here*/
 .demo-layout-transparent .mdl-layout__header,
@@ -50,21 +52,22 @@ add the slant opening
   margin-bottom: 0em !important;
   font-family: "Roboto","Helvetica","Arial",sans-serif;
   background-color: transparent !important;
+  /*Photo by Luca Bravo on Unsplash*/
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), center/cover no-repeat !important;
+  background-size: cover;
 }
  
-.jumbotron::before {
+/* .jumbotron::before {
     content: ' ';
-    position: fixed; 
+    position: fixed;  
+    
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    /*Photo by Luca Bravo on Unsplash*/
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Images/Jumbotron_background.jpg") center/cover no-repeat !important;
-    background-size: cover;
     will-change: transform;
     z-index: -1;
-}
+} */
 
 .jumbotron-welcome-msg {
   position: relative;
@@ -116,91 +119,13 @@ add the slant opening
 }
 
 /*about*/
-
-.about-margin-mod { margin:0 !important; }
-.about-text { font-size: 1em !important; }
-.about-title-container { padding: 0 !important; }
-.about-title { background-color: rgba(0, 0, 0, 0.05); } 
-.about-card-image { background: url("#") center no-repeat; }
-
-.about-description{
-/*Photo by Alex Jodoin on Unsplash***************************/
-background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("Images/Montreal.jpg") center/cover no-repeat !important;
-}
-
-.hexagon {
-  position: relative;
-  width: 200px; 
-  height: 115.47px;
-  margin: 57.74px 0;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-VCcb_mrsPCwX2QgqGLQ6HYsiheBCym6cDbwcj9SY-fhPisJ);
-  background-size: auto 219.3931px;
-  background-position: center;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
-  border-left: solid 5px #ffffff;
-  border-right: solid 5px #ffffff;
-}
-
-.hexTop,
-.hexBottom {
-  position: absolute;
-  z-index: 1;
-  width: 141.42px;
-  height: 141.42px;
+.about-container { margin: 5em auto;}
+.featurette-divider { margin: 6em 20em; }
+.profile-container{
+  width: 25em;
+  height: 25em;
+  margin: 0 auto;
   overflow: hidden;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background: inherit;
-  left: 24.29px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
-}
-
-/*counter transform the bg image on the caps*/
-.hexTop:after,
-.hexBottom:after {
-  content: "";
-  position: absolute;
-  width: 190.0000px;
-  height: 109.69655114602891px;
-  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
-  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
-  transform:          rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
-  -webkit-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-  background: inherit;
-}
-
-.hexTop {
-  top: -70.7107px;
-  border-top: solid 7.0711px #ffffff;
-  border-right: solid 7.0711px #ffffff;
-}
-
-.hexTop:after {
-  background-position: center top;
-}
-
-.hexBottom {
-  bottom: -70.7107px;
-  border-bottom: solid 7.0711px #ffffff;
-  border-left: solid 7.0711px #ffffff;
-}
-
-.hexBottom:after {
-  background-position: center bottom;
-}
-
-.hexagon:after {
-  content: "";
-  position: absolute;
-  top: 2.8868px;
-  left: 0;
-  width: 190.0000px;
-  height: 109.6966px;
-  z-index: 2;
-  background: inherit;
 }
 
 
@@ -250,8 +175,6 @@ background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("Images/
   width: 256px;
   height: 256px;
   margin: 0 !important;
-  background: url('https://mcgilleus.ca/sites/default/files/portfolio-image/1_Main.png') center/cover;
-
 }
 .project-card-image > .mdl-card__actions {
   height: 52px;
@@ -264,6 +187,8 @@ background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("Images/
   font-weight: 500;
 }
 
+#StarWars { background: url('Images/Star-Wars.jpg') center/cover; }
+#LEV3RON{ background: url('Images/LEV3RON.png') center/cover; }
 
 /*footer*/
 .footer-links { text-align: center; }
