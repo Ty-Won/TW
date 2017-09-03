@@ -130,9 +130,10 @@ body{ color: #5a5a5a; }
 
 
 /*education section*/
-
-.education-header { font-size: 2.5em; }
-.education-block { height: 25em; }
+.education{
+  height: 30em;
+  background: url("Images/Education.jpg") center no-repeat;
+}
 .education-title {
   top:50%;
   position: relative;
@@ -140,7 +141,7 @@ body{ color: #5a5a5a; }
 
 /*doesnt work for mobile fix*/
 #university {
-  background:url("Images/McGill_martlet.png") no-repeat center; 
+  background:url("Images/McGill_martlet.png") center no-repeat; 
   background-size: contain; 
   transition: all 1.5s;
 }
