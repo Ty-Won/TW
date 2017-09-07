@@ -7,7 +7,8 @@
   add experience
   add skills
   clean up comments
-  add animations
+  add animations on education photo to change to logo
+  hover on all stock photos and give credits
   -->
 
 
@@ -89,30 +90,20 @@
               <form action="#">
                 <input type="text" placeholder="Name" required>
                 <input type="text" placeholder="Message" require>
-                <button type="submit">Submit</button>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
               </form>
 
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+
           </div>
         </div>
       </div>
 
 
-      <!-- <div class="jumbotron" id="home-page">
-
-        <div class="jumbotron-welcome-msg">
-          <h1>
-            >_Hello World!
-            <br> I'm Tyrone Wong, Welcome :)
-          </h1>
-        </div>
-        
-
-      </div> -->
 
       <div class="jumbotron jumbotron-fluid">
         <div class="container jumbotron-welcome-msg">
@@ -140,7 +131,7 @@
 
       <hr class="featurette-divider">
 
-      
+
       <!--education section-->
       <div class="education card text-white">
         <div class="card-img-overlay">
@@ -149,33 +140,142 @@
         </div>
       </div>
 
+      <hr class="featurette-divider">
       <!--University-->
-      <div class="row about-container">
-
-        <div class="col-md-6">
+      <div class="row school-container">
+        <div class="col"></div>
+        <div class="col-md-5">
           <div class="profile-container">
             <img class="img-fluid mx-auto rounded rounded-bottom" src="Images/McGill_campus.jpg" alt="McGill" data-holder-rendered="true">
           </div>
         </div>
 
-        <div class="col-md-6">
-          <h2>McGill University <span class="text-muted">Electrical Engineering B.Eng 2016-2020</span></h2>
+        <div class="col-md-5">
+          <h2>McGill University <span class="text-muted">B.Eng Electrical Engineering 2016-2020</span></h2>
+          <p class="lead"> insert moree text idk </p>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <hr class="featurette-divider">
+      <!--Cegep-->
+      <div class="row school-container">
+        <div class="col" style="padding-right: 5em;"></div>
+        <div class="col-md-5">
+          <h2>Marianopolis College <span class="text-muted">DEC Pure and Applied Sciences 2014-2016</span></h2>
           <p class="lead"> insert moree text idk </p>
         </div>
 
+        <div class="col-md-4">
+          <div class="profile-container">
+            <img class="img-fluid mx-auto rounded rounded-bottom" src="Images/Marianopolis_campus.jpg" alt="Marianopolis College" data-holder-rendered="true">
+          </div>
+        </div>
+        <div class="col"></div>
       </div>
 
-
-
+      <hr class="featurette-divider">
 
       <!--Experience section-->
-      <div class="row">
-        <div class="col-md-12">
-          <i class="fa fa-briefcase" aria-hidden="true"></i>
-        </div>
+
+      <div class="container">
+          <div class="page-header">
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+              <h1 style="display:inline;"> Experience</h1>
+          </div>
+          <ul class="timeline">
+              <li>
+                <div class="timeline-badge"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                    <p><small class="text-muted"> 11 hours ago via Twitter</small></p>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                    <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">lel</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                    <hr>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                        <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                  </div>
+                </div>
+              </li>
+          </ul>
       </div>
-
-
 
       <!--The Project section illustrating all the personal projects that I've done :)-->
       <div class="mdl-grid">
