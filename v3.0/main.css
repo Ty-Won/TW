@@ -5,7 +5,9 @@
 add the slant opening
 */
 
-body{ color: #5a5a5a; }
+body{ 
+  color: #5a5a5a; 
+}
 
 
 /*Navbar styling section begins here*/
@@ -18,7 +20,9 @@ body{ color: #5a5a5a; }
   background-color: rgba(0,0,0,0.5) !important;
 }
 
-.mdl-layout__drawer { transition-duration: 0.5s !important; }
+.mdl-layout__drawer { 
+  transition-duration: 0.5s !important; 
+}
 
 
 /*modal*/
@@ -96,7 +100,9 @@ body{ color: #5a5a5a; }
   
 }
 
-.descent-hover { animation: halo 2s infinite; }
+.descent-hover { 
+  animation: halo 2s infinite; 
+}
 
 @keyframes halo {
 
@@ -109,7 +115,9 @@ body{ color: #5a5a5a; }
   color: white;
   padding: 0.85em 0;
 }
-.fa-chevron-down-color { animation: chevron-color 2s infinite }
+.fa-chevron-down-color { 
+  animation: chevron-color 2s infinite 
+}
 
 @keyframes chevron-color {
   0% { color: #aaa; }
@@ -260,8 +268,9 @@ body{ color: #5a5a5a; }
               right: auto;
           }
 
-.timeline-badge.primary {
-  background-color: #2e6da4 !important;
+.timeline-badge.ericsson {
+  background: url("Images/Ericsson_logo.svg") center no-repeat;
+  
 }
 
 .timeline-badge.success {
