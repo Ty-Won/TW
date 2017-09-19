@@ -174,10 +174,39 @@ body{
   padding: 1.25rem;
 }
 
-
 .school-container {
   margin-bottom: 0;
-  height: 18em;
+  height: 40em;
+}
+
+
+.university-background{
+  background: url("Images/McGill_campus2.jpg") center no-repeat;
+}
+
+.university-text-container {
+  display: inline-flex;
+  height: 100%;
+  background-color: rgba(23, 24, 32, 0.95);
+}
+.university-text {
+  margin: auto 0em;
+  color: white;
+}
+
+.college-background{
+  background: url("Images/Marianopolis_campus2.jpg") center/cover no-repeat;
+}
+
+.college-text-container {
+  display: inline-flex;
+  float: right;
+  height: 100%;
+  background-color: rgba(23, 24, 32, 0.95);
+}
+.college-text {
+  margin: auto 0em;
+  color: white;
 }
 
 
