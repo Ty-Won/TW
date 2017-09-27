@@ -5,10 +5,6 @@
 add the slant opening
 */
 
-body{ 
-  color: #5a5a5a; 
-}
-
 
 /*Navbar styling section begins here*/
 .demo-layout-transparent .mdl-layout__header,
@@ -142,7 +138,7 @@ body{
   margin-left: 8em
 }
 
-.profile-container{
+.profile-container {
   display: inline-table;
   width: 25em;
   height: 25em;
@@ -150,11 +146,27 @@ body{
   overflow: hidden;
 }
 
+/*Activity section*/
+.activity-header{
+  color: white;
+}
+
+.activity-card {
+  height: 50em;
+  display: flex;
+  background: linear-gradient(to bottom,rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61)),url("Images/do-background.jpg") center/cover no-repeat;
+}
+
+.activity-container {
+  margin: auto 0em;
+  color: white;
+}
+
 
 /*education section*/
 .education{
   height: 60em;
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("Images/Education.jpg") center/cover no-repeat;
+  background: linear-gradient(to bottom,rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61)),url("Images/Education.jpg") center/cover no-repeat;
 }
 .education-title {
   position: relative;
@@ -218,7 +230,7 @@ body{
 
 .experience {
   height: 30em;
-  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("Images/Education.jpg") center/cover no-repeat;
+  background: linear-gradient(to bottom,rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61)) ,url("Images/Education.jpg") center/cover no-repeat;
   text-align: center;
 }
 
