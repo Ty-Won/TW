@@ -8,7 +8,7 @@
   finish about section
   add projects
   experience pic grayed out, hover it zooms and colors
-  add skills
+  add skills and have hover sections
   clean up comments
   Education area dont forget certificates, sololearn, coursera
   hover on all stock photos and give credits
@@ -29,15 +29,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
     crossorigin="anonymous">
   <link href="Static/Css/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css3-hexagon/css/styles.css" type="text/css">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-  <link rel="stylesheet" href=" http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link href="ProjectCards/ProfileCard.css" rel="stylesheet">
-  <link href="ProjectCards/colorThemes.css" rel="stylesheet">
 
   <!--javascript links-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -47,7 +45,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
     crossorigin="anonymous"></script>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <script src="ProjectCards/projectScript.js"></script>
+
 
 </head>
 
@@ -61,6 +59,7 @@
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation -->
         <nav class="mdl-navigation">
+          <h5>Tyrone Wong</h5>
           <a class="mdl-navigation__link" href="">Link</a>
         </nav>
       </div>
@@ -84,8 +83,8 @@
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Let's get in touch</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
             <div class="modal-body">
               <!--contact form-->
@@ -108,17 +107,22 @@
 
       <div class="jumbotron jumbotron-fluid">
         <div class="container jumbotron-welcome-msg">
-          <h1 class="display-3">Hello World,<br> I'm Tyrone Wong</h1>
+          <h1 class="display-3">Hello World,
+            <br> I'm Tyrone Wong</h1>
           <h3 class="lead">Welcome :)</h3>
         </div>
-        <a class="descent" href="#about-link"><i class="fa fa-fw fa-chevron-down" aria-hidden="false"></i></a>
+        <a class="descent" href="#about-link">
+          <i class="fa fa-fw fa-chevron-down" aria-hidden="false"></i>
+        </a>
       </div>
 
       <!--about-->
       <div class="row about-container">
         <div class="col-md-7 about-text-container">
           <!-- <hr class="featurette-divider"> -->
-          <h2 name="about-link">A little About Me, <span class="text-muted">Future Engineer, Developer and Tech Enthusiast</span></h2>
+          <h2 name="about-link">A little About Me,
+            <span class="text-muted">Future Engineer, Developer and Tech Enthusiast</span>
+          </h2>
           <p class="lead">
             Operating from Montreal, I'm a 2nd year Electrical Engineering Student from McGill University. Lorem ipsum dolor sit amet,
             consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
@@ -137,28 +141,68 @@
 
 
       <!--What I do section-->
-      <div class="card text-center activity-card">
-        <h2 class="activity-header">Some Things I Do</h2>
+      <div class="card activity-card">
+
         <div class="activity-container">
           <div class="row">
-            <div class="col-md-6">
-              <h3 class="card-title">Electronics</h3>
+            <div class="col"></div>
+            <div class="col-md-10 activity-title-intro">
+              <h2 class="activity-header">Some Things I Do</h2>
+            </div>
+            <div class="col"></div>
+          </div>
+          <div class="row">
+            <div class="col"></div>
+            <div id="quarter1" class="col-md-5 activity-block">
+              <i class="material-icons">build</i>
+              <h3 class="activity-title"> Engineering</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, </p>
+
             </div>
 
-            <div class="col-md-6">
-              <h3 class="card-title">Software Development</h3>
+            <div id="quarter2" class="col-md-5 activity-block">
+              <i class="material-icons">computer</i>
+              <h3 class="activity-title"> Software Development</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, </p>
+
             </div>
+            <div class="col"></div>
+
           </div>
 
 
           <div class="row">
-            <div class="col-md-6">
-              <h3 class="card-title">Investing</h3>
+            <div class="col"></div>
+            <div id="quarter3" class="col-md-5 activity-block">
+
+              <i class="material-icons">trending_up</i>
+              <h3 class="activity-title">Investing</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, </p>
             </div>
 
-            <div class="col-md-6">
-              <h3 class="card-title">Cooking</h3>
+            <div id="quarter4" class="col-md-5 activity-block">
+              <i class="material-icons">local_dining</i>
+              <h3 class="activity-title"> Cooking</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, </p>
+
             </div>
+            <div class="col"></div>
           </div>
         </div>
       </div>
@@ -166,30 +210,63 @@
 
 
       <!--Skills-->
-      <div class="card text-center" style="background-color:#1b1b1b; height:50em;">
+      <div class="card skills-container">
         <h2 class="card-title">Skills</h2>
-        <div class="do-container">
-          <div class="row">
-            <div class="col-md-6">
-              <h3 class="card-title">Electronics</h3>
-            </div>
 
-            <div class="col-md-6">
-              <h3 class="card-title">Developping Languages</h3>
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="col-md-6">
-              <h3 class="card-title">Tools</h3>
-            </div>
-
-            <div class="col-md-6">
-              <h3 class="card-title">Cooking</h3>
-            </div>
-          </div>
+        <!-- <i class="icon ion-social-html5-outline"></i>
+        <i class="icon ion-social-css3-outline"></i>
+        <i class="icon ion-social-javascript"></i>
+        <i class="icon ion-social-python"></i>
+        <i class="icon ion-social-github"></i> -->
+        <!-- html,css,java,c,python,javascript,-->
+        <div class="row">
+            <div class="col"></div>
+          <div class="col-md-5"><h3>Development</h3></div>
+          <div class="col-md-5"><h3>Development</h3></div>
+          <div class="col"></div>
         </div>
+
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-md-5 skill-icon-container">
+        
+            <i class="skill-icon devicon-c-plain"></i>
+            <i class="skill-icon devicon-python-plain"></i>
+            <i class="skill-icon devicon-java-plain"></i>
+            <br>
+            <i class="skill-icon devicon-html5-plain"></i>
+            <i class="skill-icon devicon-css3-plain"></i>
+            <i class="skill-icon devicon-javascript-plain"></i>
+            <br>
+            <i class="skill">matlab</i>
+
+          </div>
+          <div class="col-md-5">
+            <div class="card dev-tool-container">
+              <h4 class="card-header dev-tool-header">Tools</h4>
+              <div class="card-body">
+
+                <div>Git</div>
+                <div>
+                  <i class="devicon-github-plain-wordmark colored"></i>
+                  <span>Github</span>
+                </div>
+                <div>Gerrit</div>
+                <div>Chrome Dev Tools</div>
+                <div>
+                  <i class="material-icons">code</i>
+                  <span>Bash</span>
+                </div>
+                <div>KiCad</div>
+                <div>NX11</div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col"></div>
+        </div>
+
       </div>
 
 
@@ -206,7 +283,9 @@
       <div class="row school-container university-background">
         <div class="col-md-5 university-text-container">
           <div class="university-text">
-            <h2>McGill University <span class="text-muted">B.Eng Electrical Engineering 2016-2020</span></h2>
+            <h2>McGill University
+              <span class="text-muted">B.Eng Electrical Engineering 2016-2020</span>
+            </h2>
             <p class="lead"> insert moree text idk </p>
           </div>
         </div>
@@ -218,7 +297,9 @@
         <div class="col"></div>
         <div class="col-md-5 college-text-container">
           <div class="college-text">
-            <h2>Marianopolis College <span class="text-muted">DEC Pure and Applied Sciences 2014-2016</span></h2>
+            <h2>Marianopolis College
+              <span class="text-muted">DEC Pure and Applied Sciences 2014-2016</span>
+            </h2>
             <p class="lead"> insert moree text idk </p>
           </div>
         </div>
@@ -307,10 +388,26 @@
           <div class="mdl-logo">TW.io</div>
           <div class="footer-links">
             <ul class="mdl-mini-footer__link-list">
-              <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-university" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-university" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+              </li>
             </ul>
             <p>
               TW.io Created and Owned by Tyrone Wong @ copyright
@@ -331,8 +428,6 @@
 
 
   <script src="Static/Javascript/TW.js"></script>
-
-
 
 
 </body>

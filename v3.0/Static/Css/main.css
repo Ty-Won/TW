@@ -162,6 +162,76 @@ add the slant opening
   color: white;
 }
 
+.activity-block {
+  padding: 1.25em 1em;
+  height: 18em;
+
+}
+
+.icon {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+.activity-title {
+  display: inline;
+  font-weight: 100;
+}
+
+.activity-title-intro {
+  padding-left: 0em;
+}
+
+#quarter1 {
+  border-right: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+  padding: 0em 2em 2em 0em;
+}
+
+#quarter2 {
+  border-left: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+  padding: 0em 2em 0em 2em;
+}
+
+#quarter3 {
+  border-right: 0.5px solid white;
+  border-top: 0.5px solid white;
+  padding: 2em 2em 0em 0em;
+}
+
+#quarter4 {
+  border-left: 0.5px solid white;
+  border-top: 0.5px solid white;
+  padding: 2em 0em 0em 2em;
+}
+
+/*skills*/
+
+.skills-container {
+  background-color:#1b1b1b;
+  height:50em;
+  display: block;
+}
+
+.skill-icon {
+  padding: 0.5em 0.5em;
+  margin: 0.1em 0.1em;
+  display: inline-block;
+  border: 2px solid #868e96;
+  /* border-radius: 50% 50%; */
+  font-size: 70px;
+  
+}
+
+.dev-tool-container {
+  background-color: #1b1b1b;
+  color: #868e96;
+}
+
+.dev-tool-header {
+  margin: 0em 0em;
+}
 
 /*education section*/
 .education{
