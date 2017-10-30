@@ -135,7 +135,7 @@
         </div>
 
         <div class="col-md-3 profile-container">
-          <img class="img-fluid mx-auto rounded rounded-bottom" src="Static/Css/Images/profile.jpg" alt="profile" data-holder-rendered="true">
+          <img class="profile-pic img-fluid mx-auto rounded rounded-bottom" src="Static/Css/Images/profile.jpg" alt="profile">
         </div>
       </div>
 
@@ -144,13 +144,17 @@
       <div class="card activity-card">
 
         <div class="activity-container">
-          <div class="row">
+
+          <!-- <div class="row">
             <div class="col"></div>
             <div class="col-md-10 activity-title-intro">
               <h2 class="activity-header">Some Things I Do</h2>
             </div>
             <div class="col"></div>
-          </div>
+          </div> -->
+
+          <h2 class="activity-header">Some Things I Do</h2>
+
           <div class="row">
             <div class="col"></div>
             <div id="quarter1" class="col-md-5 activity-block">
@@ -211,25 +215,18 @@
 
       <!--Skills-->
       <div class="card skills-container">
-        <h2 class="card-title">Skills</h2>
-
-        <!-- <i class="icon ion-social-html5-outline"></i>
-        <i class="icon ion-social-css3-outline"></i>
-        <i class="icon ion-social-javascript"></i>
-        <i class="icon ion-social-python"></i>
-        <i class="icon ion-social-github"></i> -->
-        <!-- html,css,java,c,python,javascript,-->
         <div class="row">
-            <div class="col"></div>
-          <div class="col-md-5"><h3>Development</h3></div>
-          <div class="col-md-5"><h3>Development</h3></div>
+          <div class="col"></div>
+          <div class="col-md-10">
+            <h3 class="skills-title card-title">Skills</h3>
+          </div>
           <div class="col"></div>
         </div>
 
-        <div class="row">
+
+        <div class="row skill-row">
           <div class="col"></div>
           <div class="col-md-5 skill-icon-container">
-        
             <i class="skill-icon devicon-c-plain"></i>
             <i class="skill-icon devicon-python-plain"></i>
             <i class="skill-icon devicon-java-plain"></i>
@@ -237,36 +234,40 @@
             <i class="skill-icon devicon-html5-plain"></i>
             <i class="skill-icon devicon-css3-plain"></i>
             <i class="skill-icon devicon-javascript-plain"></i>
-            <br>
-            <i class="skill">matlab</i>
-
           </div>
+
+          <!--Dev tools skills-->
           <div class="col-md-5">
             <div class="card dev-tool-container">
-              <h4 class="card-header dev-tool-header">Tools</h4>
+              <h4 class="card-header dev-tool-header">Dev Tools</h4>
               <div class="card-body">
-
                 <div>Git</div>
-                <div>
-                  <i class="devicon-github-plain-wordmark colored"></i>
-                  <span>Github</span>
-                </div>
+                <div>Github</div>
                 <div>Gerrit</div>
                 <div>Chrome Dev Tools</div>
-                <div>
-                  <i class="material-icons">code</i>
-                  <span>Bash</span>
-                </div>
+                <div>Bash</div>
+              </div>
+            </div>
+
+            <!--other engineering skills-->
+            <div class="card dev-tool-container">
+              <h4 class="card-header dev-tool-header">Knowledge</h4>
+              <div class="card-body">
+
+                <span>French</span>
+                <span>Soldering</span>
+                <div>Computer Assembly</div>
                 <div>KiCad</div>
                 <div>NX11</div>
+                <div>Machine Learning</div>
 
               </div>
             </div>
           </div>
 
+
           <div class="col"></div>
         </div>
-
       </div>
 
 
@@ -316,64 +317,63 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
 
       <div class="experience-container">
+        <div class="row">
+          <div class="col"></div>
 
-        <!--ericsson position-->
-        <div class="row" id="ericsson">
-          <div class="col" style="padding-right: 5em;"></div>
-
-          <div class="col-md-4 ericsson-logo"></div>
-          <div class="col-md-5 ericsson-text experience-slot">
-            <div class="experience-vertical-text-align">
-              <h2 class="experience-job-title">Software Developer Intern
-                <br>
-                <span class="text-muted">Ericsson</span>
-              </h2>
-              <p class="lead"> August 2017 to Present </p>
-            </div>
+          <div class="card bg-dark col-md-3 experience-block">
+            <img class="card-img" src="Static/Css/Images/ericssonLogo.png" alt="Card image">
+            <!-- <div class="card-img-overlay">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Last updated 3 mins ago</p>
+              </div> -->
           </div>
 
-          <div class="col" style="padding-right: 5em;"></div>
-        </div>
-
-
-        <!--EIG position-->
-        <div class="row" id="EIG">
-          <div class="col" style="padding-right: 5em;"></div>
-
-          <div class="col-md-4 eig-logo"></div>
-          <div class="col-md-5 eig-text experience-slot">
-            <div class="experience-vertical-text-align">
-              <h2 class="experience-job-title">Funraising Director
-                <br>
-                <span class="text-muted">Engineering Investment Group</span>
-              </h2>
-              <p class="lead"> August 2017 to Present </p>
-            </div>
+          <div class="card bg-dark col-md-3 experience-block">
+            <img class="card-img" src="Static/Css/Images/eigLogo.png" alt="Card image">
+            <!-- <div class="card-img-overlay">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div> -->
           </div>
 
-          <div class="col" style="padding-right: 5em;"></div>
+          <div class="card bg-dark col-md-3 experience-block">
+            <img class="card-img" src="Static/Css/Images/formulaElectric.png" alt="Card image">
+            <!-- <div class="card-img-overlay">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                  </div> -->
+          </div>
+          <div class="col"></div>
         </div>
 
-        <!--McGill Robotics position-->
-        <div class="row" id="Robotics">
-          <div class="col" style="padding-right: 5em;"></div>
+        <div class="row">
+          <div class="col"></div>
 
-          <div class="col-md-4 robotics-logo"></div>
-          <div class="col-md-5 robotics-text experience-slot">
-            <div class="experience-vertical-text-align">
-              <h2 class="experience-job-title">Funraising Director
-                <br>
-                <span class="text-muted">Engineering Investment Group</span>
-              </h2>
-              <p class="lead"> August 2017 to Present </p>
-            </div>
+          <div class="card bg-dark col-md-3 experience-block">
+            <img class="card-img" src="Static/Css/Images/engineLogo.png" alt="Card image">
+            <!-- <div class="card-img-overlay">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                      </div> -->
+          </div>
+          <div class="card bg-dark col-md-3 experience-block">
+            <img class="card-img" src="Static/Css/Images/robotics.png" alt="Card image">
+            <!-- <div class="card-img-overlay">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div> -->
           </div>
 
-          <div class="col" style="padding-right: 5em;"></div>
+          <div class="col"></div>
         </div>
+
 
       </div>
 
