@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 
 <!--todo list:
+
   ***********MAKE IT RESPONSIVE...HUGE*******WEBSITE DOESNT WORK 
   fix modal for contact
   have a classic clock on jumbotron to show mtl time
@@ -8,11 +9,12 @@
   finish about section
   add projects
   experience pic grayed out, hover it zooms and colors
-  add skills and have hover sections
+  add skills and have hover sections with icons fading in and dont forget to uncomment the text so when they click they can see
   clean up comments
   Education area dont forget certificates, sololearn, coursera
   hover on all stock photos and give credits
   make sure links work and open in a new tab
+
   -->
 
 
@@ -30,7 +32,6 @@
     crossorigin="anonymous">
   <link href="Static/Css/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css3-hexagon/css/styles.css" type="text/css">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
@@ -44,108 +45,100 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
     crossorigin="anonymous"></script>
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
 
 </head>
 
 <body>
   <!-- Uses a transparent header that draws on top of the layout's background -->
-  <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <div class="mdl-layout__header-row">
 
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer"></div>
-        <!-- Navigation -->
-        <nav class="mdl-navigation">
-          <h5>Tyrone Wong</h5>
-          <a class="mdl-navigation__link" href="">Link</a>
-        </nav>
+  <header class="">
+
+    <h5>Tyrone Wong</h5>
+  </header>
+  <div class="">
+    <span class="">Welcome</span>
+    <nav class="">
+      <a class="" href="#home-page">Home</a>
+      <a class="" href="Contact/TW_CV2017.pdf" target="_blank">Resume</a>
+      <a class="" id="contact-button" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
+    </nav>
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Let's get in touch</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!--contact form-->
+          <form action="#">
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Message" require>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+
+        </div>
+
       </div>
-    </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Welcome</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="#home-page">Home</a>
-        <a class="mdl-navigation__link" href="Contact/TW_CV2017.pdf" target="_blank">Resume</a>
-        <a class="mdl-navigation__link" id="contact-button" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
-
-      </nav>
     </div>
+  </div>
 
-    <main class="mdl-layout__content">
 
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Let's get in touch</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <!--contact form-->
-              <form action="#">
-                <input type="text" placeholder="Name" required>
-                <input type="text" placeholder="Message" require>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid jumbotron-welcome-msg">
+      <h1 class="display-3">Hello World,
+        <br> I'm Tyrone Wong</h1>
+      <h3 class="lead">Welcome :)</h3>
+    </div>
+    <a class="descent" href="#about-link">
+      <i class="fa fa-fw fa-chevron-down" aria-hidden="false"></i>
+    </a>
+  </div>
 
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-              </form>
+  <!--about-->
+  <div class="container-fluid about-container">
+    <span class="row">
+      <div class="col-md-7 about-text-container">
 
-            </div>
+        <h2 name="about-link">A little About Me,
+          <span class="text-muted">Future Engineer, Developer and Tech Enthusiast</span>
+        </h2>
+        <p class="lead">
+          Operating from Montreal, I'm a 2nd year Electrical Engineering Student from McGill University. Lorem ipsum dolor sit amet,
+          consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+          dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+          sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+          justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+          Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+        </p>
 
-          </div>
-        </div>
       </div>
 
-
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container jumbotron-welcome-msg">
-          <h1 class="display-3">Hello World,
-            <br> I'm Tyrone Wong</h1>
-          <h3 class="lead">Welcome :)</h3>
-        </div>
-        <a class="descent" href="#about-link">
-          <i class="fa fa-fw fa-chevron-down" aria-hidden="false"></i>
-        </a>
+      <div class="col-md-3 profile-container">
+        <img class="profile-pic img-fluid mx-auto rounded rounded-bottom" src="Static/Css/Images/profile.jpg" alt="profile">
       </div>
-
-      <!--about-->
-      <div class="row about-container">
-        <div class="col-md-7 about-text-container">
-          <!-- <hr class="featurette-divider"> -->
-          <h2 name="about-link">A little About Me,
-            <span class="text-muted">Future Engineer, Developer and Tech Enthusiast</span>
-          </h2>
-          <p class="lead">
-            Operating from Montreal, I'm a 2nd year Electrical Engineering Student from McGill University. Lorem ipsum dolor sit amet,
-            consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-            magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-            quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-            tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-          </p>
-          <!-- <hr class="featurette-divider"> -->
-        </div>
-
-        <div class="col-md-3 profile-container">
-          <img class="profile-pic img-fluid mx-auto rounded rounded-bottom" src="Static/Css/Images/profile.jpg" alt="profile">
-        </div>
-      </div>
+    </span>
+  </div>
 
 
-      <!--What I do section-->
-      <div class="card activity-card">
+  <!--What I do section-->
+  <div class="card activity-card">
 
-        <div class="activity-container">
+    <div class="container-fluid activity-container">
 
-          <!-- <div class="row">
+      <!-- <div class="row">
             <div class="col"></div>
             <div class="col-md-10 activity-title-intro">
               <h2 class="activity-header">Some Things I Do</h2>
@@ -153,277 +146,281 @@
             <div class="col"></div>
           </div> -->
 
-          <h2 class="activity-header">Some Things I Do</h2>
+      <h2 class="activity-header">Some Things I Do</h2>
 
-          <div class="row">
-            <div class="col"></div>
-            <div id="quarter1" class="col-md-5 activity-block">
-              <i class="material-icons">build</i>
-              <h3 class="activity-title"> Engineering</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, </p>
-
-            </div>
-
-            <div id="quarter2" class="col-md-5 activity-block">
-              <i class="material-icons">computer</i>
-              <h3 class="activity-title"> Software Development</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, </p>
-
-            </div>
-            <div class="col"></div>
-
-          </div>
-
-
-          <div class="row">
-            <div class="col"></div>
-            <div id="quarter3" class="col-md-5 activity-block">
-
-              <i class="material-icons">trending_up</i>
-              <h3 class="activity-title">Investing</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, </p>
-            </div>
-
-            <div id="quarter4" class="col-md-5 activity-block">
-              <i class="material-icons">local_dining</i>
-              <h3 class="activity-title"> Cooking</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, </p>
-
-            </div>
-            <div class="col"></div>
-          </div>
-        </div>
-      </div>
-
-
-
-      <!--Skills-->
-      <div class="card skills-container">
-        <div class="row">
-          <div class="col"></div>
-          <div class="col-md-10">
-            <h3 class="skills-title card-title">Skills</h3>
-          </div>
-          <div class="col"></div>
-        </div>
-
-
-        <div class="row skill-row">
-          <div class="col"></div>
-          <div class="col-md-5 skill-icon-container">
-            <i class="skill-icon devicon-c-plain"></i>
-            <i class="skill-icon devicon-python-plain"></i>
-            <i class="skill-icon devicon-java-plain"></i>
-            <br>
-            <i class="skill-icon devicon-html5-plain"></i>
-            <i class="skill-icon devicon-css3-plain"></i>
-            <i class="skill-icon devicon-javascript-plain"></i>
-          </div>
-
-          <!--Dev tools skills-->
-          <div class="col-md-5">
-            <div class="card dev-tool-container">
-              <h4 class="card-header dev-tool-header">Dev Tools</h4>
-              <div class="card-body">
-                <div>Git</div>
-                <div>Github</div>
-                <div>Gerrit</div>
-                <div>Chrome Dev Tools</div>
-                <div>Bash</div>
-              </div>
-            </div>
-
-            <!--other engineering skills-->
-            <div class="card dev-tool-container">
-              <h4 class="card-header dev-tool-header">Knowledge</h4>
-              <div class="card-body">
-
-                <span>French</span>
-                <span>Soldering</span>
-                <div>Computer Assembly</div>
-                <div>KiCad</div>
-                <div>NX11</div>
-                <div>Machine Learning</div>
-
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col"></div>
-        </div>
-      </div>
-
-
-
-      <!--education section-->
-      <div class="education card text-white">
-        <div class="card-img-overlay">
-          <i class="fa fa-book education-title" aria-hidden="true"></i>
-          <h4 class="education-title">Always Learning</h4>
-        </div>
-      </div>
-
-      <!--University-->
-      <div class="row school-container university-background">
-        <div class="col-md-5 university-text-container">
-          <div class="university-text">
-            <h2>McGill University
-              <span class="text-muted">B.Eng Electrical Engineering 2016-2020</span>
-            </h2>
-            <p class="lead"> insert moree text idk </p>
-          </div>
-        </div>
-      </div>
-
-
-      <!--Cegep-->
-      <div class="row school-container college-background">
+      <div class="row">
         <div class="col"></div>
-        <div class="col-md-5 college-text-container">
-          <div class="college-text">
-            <h2>Marianopolis College
-              <span class="text-muted">DEC Pure and Applied Sciences 2014-2016</span>
-            </h2>
-            <p class="lead"> insert moree text idk </p>
+        <div id="quarter1" class="col-md-5 activity-block">
+
+          <h3 class="activity-title">
+            <i class="material-icons">build</i> Engineering</h3>
+          <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, </p> -->
+
+        </div>
+
+        <div id="quarter2" class="col-md-5 activity-block">
+
+          <h3 class="activity-title">
+            <i class="material-icons">computer</i> Software Development</h3>
+          <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, </p> -->
+
+        </div>
+        <div class="col"></div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col"></div>
+        <div id="quarter3" class="col-md-5 activity-block">
+
+
+          <h3 class="activity-title">
+            <i class="material-icons">trending_up</i> Investing</h3>
+          <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, </p> -->
+        </div>
+
+        <div id="quarter4" class="col-md-5 activity-block">
+
+          <h3 class="activity-title">
+            <i class="material-icons">local_dining</i> Cooking</h3>
+          <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, </p> -->
+
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Skills-->
+  <div class="card skills-container container-fluid">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-md-10">
+        <h3 class="skills-title card-title">Skills</h3>
+      </div>
+      <div class="col"></div>
+    </div>
+
+
+    <div class="row skill-row">
+      <div class="col"></div>
+      <div class="col-md-5 skill-icon-container">
+        <i class="skill-icon devicon-c-plain"></i>
+        <i class="skill-icon devicon-python-plain"></i>
+        <i class="skill-icon devicon-java-plain"></i>
+        <br>
+        <i class="skill-icon devicon-html5-plain"></i>
+        <i class="skill-icon devicon-css3-plain"></i>
+        <i class="skill-icon devicon-javascript-plain"></i>
+      </div>
+
+      <!--Dev tools skills-->
+      <div class="col-md-5">
+        <div class="card dev-tool-container">
+          <h4 class="card-header dev-tool-header">Dev Tools</h4>
+          <div class="card-body">
+            <div>Git</div>
+            <div>Github</div>
+            <div>Gerrit</div>
+            <div>Chrome Dev Tools</div>
+            <div>Bash</div>
           </div>
         </div>
 
-      </div>
+        <!--other engineering skills-->
+        <div class="card dev-tool-container">
+          <h4 class="card-header dev-tool-header">Knowledge</h4>
+          <div class="card-body">
 
+            <span>French</span>
+            <span>Soldering</span>
+            <div>Computer Assembly</div>
+            <div>KiCad</div>
+            <div>NX11</div>
+            <div>Machine Learning</div>
 
-
-      <!--Experience section-->
-      <div class="experience card text-white">
-        <div class="card-img-overlay">
-          <i class="fa fa-briefcase" aria-hidden="true"></i>
-          <h4 class="experience-title"> Experience & Involvement</h4>
+          </div>
         </div>
       </div>
 
 
-      <div class="experience-container">
-        <div class="row">
-          <div class="col"></div>
+      <div class="col"></div>
+    </div>
+  </div>
 
-          <div class="card bg-dark col-md-3 experience-block">
-            <img class="card-img" src="Static/Css/Images/ericssonLogo.png" alt="Card image">
-            <!-- <div class="card-img-overlay">
+  <!-- education section-->
+  <div class="education card text-white">
+    <div class="card-img-overlay">
+      <i class="fa fa-book education-title" aria-hidden="true"></i>
+      <h4 class="education-title">Always Learning</h4>
+    </div>
+  </div>
+
+  <!--University-->
+  <div class="container-fluid school-container university-background">
+    <span class="row">
+      <div class="col-md-5 university-text-container">
+        <div class="university-text">
+          <h2>McGill University
+            <span class="text-muted">B.Eng Electrical Engineering 2016-2020</span>
+          </h2>
+          <p class="lead"> insert moree text idk </p>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <!--Cegep-->
+  <div class="container-fluid school-container college-background">
+    <span class="row">
+      <div class="col"></div>
+      <div class="col-md-5 college-text-container">
+        <div class="college-text">
+          <h2>Marianopolis College
+            <span class="text-muted">DEC Pure and Applied Sciences 2014-2016</span>
+          </h2>
+          <p class="lead"> insert moree text idk </p>
+        </div>
+      </div>
+    </span>
+
+  </div>
+
+
+
+
+
+  <!--Experience section-->
+  <div class="experience card text-white">
+    <div class="card-img-overlay">
+      <i class="fa fa-briefcase" aria-hidden="true"></i>
+      <h4 class="experience-title"> Experience & Involvement</h4>
+    </div>
+  </div>
+
+
+  <div class="container-fluid experience-container">
+    <div class="row">
+      <div class="col"></div>
+
+      <div class="card bg-dark col-md-3 experience-block">
+        <img class="card-img" src="Static/Css/Images/ericssonLogo.png" alt="Card image">
+        <!-- <div class="card-img-overlay">
                 <h4 class="card-title">Card title</h4>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p class="card-text">Last updated 3 mins ago</p>
               </div> -->
-          </div>
+      </div>
 
-          <div class="card bg-dark col-md-3 experience-block">
-            <img class="card-img" src="Static/Css/Images/eigLogo.png" alt="Card image">
-            <!-- <div class="card-img-overlay">
+      <div class="card bg-dark col-md-3 experience-block">
+        <img class="card-img" src="Static/Css/Images/eigLogo.png" alt="Card image">
+        <!-- <div class="card-img-overlay">
                   <h4 class="card-title">Card title</h4>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text">Last updated 3 mins ago</p>
                 </div> -->
-          </div>
+      </div>
 
-          <div class="card bg-dark col-md-3 experience-block">
-            <img class="card-img" src="Static/Css/Images/formulaElectric.png" alt="Card image">
-            <!-- <div class="card-img-overlay">
+      <div class="card bg-dark col-md-3 experience-block">
+        <img class="card-img" src="Static/Css/Images/formulaElectric.png" alt="Card image">
+        <!-- <div class="card-img-overlay">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <p class="card-text">Last updated 3 mins ago</p>
                   </div> -->
-          </div>
-          <div class="col"></div>
-        </div>
+      </div>
+      <div class="col"></div>
+    </div>
 
-        <div class="row">
-          <div class="col"></div>
+    <div class="row">
+      <div class="col"></div>
 
-          <div class="card bg-dark col-md-3 experience-block">
-            <img class="card-img" src="Static/Css/Images/engineLogo.png" alt="Card image">
-            <!-- <div class="card-img-overlay">
+      <div class="card bg-dark col-md-3 experience-block">
+        <img class="card-img" src="Static/Css/Images/engineLogo.png" alt="Card image">
+        <!-- <div class="card-img-overlay">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <p class="card-text">Last updated 3 mins ago</p>
                       </div> -->
-          </div>
-          <div class="card bg-dark col-md-3 experience-block">
-            <img class="card-img" src="Static/Css/Images/robotics.png" alt="Card image">
-            <!-- <div class="card-img-overlay">
+      </div>
+      <div class="card bg-dark col-md-3 experience-block">
+        <img class="card-img" src="Static/Css/Images/robotics.png" alt="Card image">
+        <!-- <div class="card-img-overlay">
                   <h4 class="card-title">Card title</h4>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text">Last updated 3 mins ago</p>
                 </div> -->
-          </div>
-
-          <div class="col"></div>
-        </div>
-
-
       </div>
 
+      <div class="col"></div>
+    </div>
 
-
-      <!--The Project section illustrating all the personal projects that I've done :)-->
-
-
-
-      <footer class="mdl-mini-footer">
-        <div class="mdl-mini-footer__left-section">
-          <div class="mdl-logo">TW.io</div>
-          <div class="footer-links">
-            <ul class="mdl-mini-footer__link-list">
-              <li>
-                <a href="#">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-university" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
-            <p>
-              TW.io Created and Owned by Tyrone Wong @ copyright
-              <script type="text/javascript">
-                document.write(new Date().getFullYear());
-              </script>
-
-            </p>
-          </div>
-        </div>
-      </footer>
-
-
-    </main>
 
   </div>
+
+
+
+  <!--The Project section illustrating all the personal projects that I've done :)-->
+
+
+
+  <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">TW.io</div>
+      <div class="footer-links">
+        <ul class="mdl-mini-footer__link-list">
+          <li>
+            <a href="#">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-university" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+        <p>
+          TW.io Created and Owned by Tyrone Wong @ copyright
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+
+        </p>
+      </div>
+    </div>
+  </footer>
+
 
 
 

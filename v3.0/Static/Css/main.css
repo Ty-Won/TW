@@ -20,6 +20,9 @@ add the slant opening
   transition-duration: 0.5s !important; 
 }
 
+.row {
+  padding: 0em !important
+}
 
 /*modal*/
 .modal {
@@ -129,13 +132,12 @@ add the slant opening
 }
 
 /*about*/
-.about-container { 
+.about-container {
   height: 60em;
   background-color: #1b1b1b;
 }
 .about-text-container{
-  margin: auto 3em;
-  margin-left: 8em
+  margin: auto 0em auto 8em;
 }
 
 .profile-container {
@@ -169,6 +171,7 @@ add the slant opening
 .activity-block {
   padding: 1.25em 1em;
   height: 18em;
+  display: flex;
 
 }
 
@@ -180,16 +183,25 @@ add the slant opening
 .activity-title {
   display: inline;
   font-weight: 100;
+  margin: auto;
 }
 
 .activity-title-intro {
   padding-left: 0em;
 }
 
+
+
+
+
 #quarter1 {
   border-right: 0.5px solid white;
   border-bottom: 0.5px solid white;
   padding: 0em 2em 2em 0em;
+}
+
+#quarter1:hover, #quarter2:hover, #quarter3:hover, #quarter4:hover {
+  background-color: rgba(0,0,0,0.3);
 }
 
 #quarter2 {
