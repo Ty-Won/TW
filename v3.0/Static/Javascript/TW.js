@@ -23,14 +23,6 @@ $(document).ready(function () {
         }
     });
 
-    /*Modal function for the contact button, hides menu and background while the modal is up and allows the modal
-    to be closed when clicked outside of the window*/
-    $("#contact-button").click(function () {
-        $('.mdl-layout__obfuscator').removeClass('is-visible');
-        $('.mdl-layout__drawer').removeClass('is-visible');
-
-
-    });
 
     $(window).click(function (event) {
         var contactModal = $("#contact-modal");
@@ -38,8 +30,12 @@ $(document).ready(function () {
             contactModal.hide();
         };
     });
+
 });
 
+function toggleSideBar() {
+    $("#mySidenav").toggleClass("display-side-nav");
+}
 
 
 

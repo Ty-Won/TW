@@ -53,16 +53,21 @@
   <!-- Uses a transparent header that draws on top of the layout's background -->
 
   <header class="">
-
+    <span>
+      <a href="#" onclick="toggleSideBar();">&#9776</a>
+    </span>
     <h5>Tyrone Wong</h5>
   </header>
-  <div class="">
-    <span class="">Welcome</span>
-    <nav class="">
-      <a class="" href="#home-page">Home</a>
-      <a class="" href="Contact/TW_CV2017.pdf" target="_blank">Resume</a>
-      <a class="" id="contact-button" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
-    </nav>
+
+ 
+  <div id="mySidenav" class="sidenav">
+      <span class="side-nav-title">Welcome</span>
+      <a href="javascript:void(0)" class="close-btn" onclick="toggleSideBar();">&times;</a>
+      <nav class="nav-options">
+        <a class="side-selection" href="#home-page">Home</a>
+        <a class="side-selection" href="Contact/TW_CV2017.pdf" target="_blank">Resume</a>
+        <a class="side-selection" id="contact-button" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
+      </nav>
   </div>
 
 
@@ -276,8 +281,8 @@
   </div>
 
   <!--University-->
-  <div class="container-fluid school-container university-background">
-    <span class="row">
+  <div class="container-fluid">
+    <div class="row school-container university-background">
       <div class="col-md-5 university-text-container">
         <div class="university-text">
           <h2>McGill University
@@ -286,13 +291,13 @@
           <p class="lead"> insert moree text idk </p>
         </div>
       </div>
-    </span>
+    </div>
   </div>
 
 
   <!--Cegep-->
-  <div class="container-fluid school-container college-background">
-    <span class="row">
+  <div class="container-fluid">
+    <div class="row school-container college-background">
       <div class="col"></div>
       <div class="col-md-5 college-text-container">
         <div class="college-text">
@@ -302,7 +307,7 @@
           <p class="lead"> insert moree text idk </p>
         </div>
       </div>
-    </span>
+    </div>
 
   </div>
 

@@ -7,22 +7,52 @@ add the slant opening
 
 
 /*Navbar styling section begins here*/
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
+.sidenav {
+  height: 100%;
+  width: 0;
   position: fixed;
-  color: white;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
-.visible-navbar{
-  background-color: rgba(0,0,0,0.5) !important;
+.display-side-nav {
+  width: 250px;
 }
 
-.mdl-layout__drawer { 
-  transition-duration: 0.5s !important; 
+.nav-options {
+  margin-top: 3em;
 }
 
-.row {
-  padding: 0em !important
+.side-nav-title {
+  font-size: 24px;
+  padding: 1em;
 }
+
+.close-btn {
+  position: absolute;
+  left: 200px;
+  font-size: 30px;
+  text-decoration: none !important;
+  color: black;
+}
+.side-selection {
+  display: block;
+  padding: 1em;
+  font-size: 18px;
+  color: black;
+}
+
+.side-selection:hover {
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+}
+
+
 
 /*modal*/
 .modal {
