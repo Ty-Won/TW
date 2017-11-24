@@ -52,28 +52,31 @@
 <body>
   <!-- Uses a transparent header that draws on top of the layout's background -->
 
-  <header class="">
+  <header class="navbar">
     <span>
-      <a href="#" onclick="toggleSideBar();">&#9776</a>
+      <a onclick="showSideBar()">&#9776</a>
     </span>
     <h5>Tyrone Wong</h5>
   </header>
 
- 
-  <div id="mySidenav" class="sidenav">
+  <div id="sidenav-container"></div>
+    <div id="sidenav">
       <span class="side-nav-title">Welcome</span>
-      <a href="javascript:void(0)" class="close-btn" onclick="toggleSideBar();">&times;</a>
-      <nav class="nav-options">
+      <a class="close-btn" onclick="closeSideBar();">&times;</a>
+      <nav class="side-selection-container">
+        
         <a class="side-selection" href="#home-page">Home</a>
         <a class="side-selection" href="Contact/TW_CV2017.pdf" target="_blank">Resume</a>
         <a class="side-selection" id="contact-button" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
       </nav>
-  </div>
+    </div>
+  
+  
 
 
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">

@@ -7,25 +7,56 @@ add the slant opening
 
 
 /*Navbar styling section begins here*/
-.sidenav {
+.navbar {
+  position: fixed;
+  z-index: 2;
+}
+
+
+/*sidenavbar styling begins here */
+#sidenav-container {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s;
+  
+}
+
+.sidenav-container-toggle{
+  width: 100% !important;
+  opacity: 0.8 !important;
+}
+
+
+#sidenav {
+  height: 100%;
+  width: 0;
   top: 0;
   left: 0;
   background-color: white;
+  position: fixed;
+  z-index: 3;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: .5s;
   padding-top: 60px;
 }
+
+
+
+
 .display-side-nav {
   width: 250px;
 }
 
-.nav-options {
-  margin-top: 3em;
-}
+
 
 .side-nav-title {
   font-size: 24px;
@@ -38,6 +69,10 @@ add the slant opening
   font-size: 30px;
   text-decoration: none !important;
   color: black;
+}
+
+.side-selection-container {
+  margin-top: 3em;
 }
 .side-selection {
   display: block;

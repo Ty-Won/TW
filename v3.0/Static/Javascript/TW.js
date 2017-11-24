@@ -33,10 +33,26 @@ $(document).ready(function () {
 
 });
 
-function toggleSideBar() {
-    $("#mySidenav").toggleClass("display-side-nav");
+function showSideBar() {
+    $("#sidenav-container").addClass("sidenav-container-toggle");
+    $("#sidenav").css("width","250px")
+
+   
 }
 
+function closeSideBar() {
+    $("#sidenav-container").removeClass("sidenav-container-toggle");
+    $("#sidenav").css("width","0px")
+
+   
+}
+
+$(window).click(function(event){
+    var sidebar = $("#sidenav-container");
+    if (event.target == sidebar[0]) {
+        closeSideBar();
+    };
+})
 
 
 
