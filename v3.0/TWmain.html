@@ -55,23 +55,24 @@
   <header class="navbar">
     <span>
       <a onclick="showSideBar()">&#9776</a>
+      <span>TW</span>
     </span>
-    <h5>Tyrone Wong</h5>
+
   </header>
 
   <div id="sidenav-container"></div>
-    <div id="sidenav">
-      <span class="side-nav-title">Welcome</span>
-      <a class="close-btn" onclick="closeSideBar();">&times;</a>
-      <nav class="side-selection-container">
-        
-        <a class="side-selection" href="#home-page">Home</a>
-        <a class="side-selection" href="Contact/TW_CV2017.pdf" target="_blank">Resume</a>
-        <a class="side-selection" id="contact-button" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
-      </nav>
-    </div>
-  
-  
+  <div id="sidenav">
+    <span class="side-nav-title">Welcome</span>
+    <a class="close-btn" onclick="closeSideBar();">&times;</a>
+    <nav class="side-selection-container">
+
+      <a class="side-selection" href="#home-page">Home</a>
+      <a class="side-selection" href="Contact/TW_CV2017.pdf" target="_blank">Resume</a>
+      <a class="side-selection" id="contact-button" data-toggle="modal" data-target="#exampleModal" href="#">Contact</a>
+    </nav>
+  </div>
+
+
 
 
 
@@ -146,19 +147,11 @@
 
     <div class="container-fluid activity-container">
 
-      <!-- <div class="row">
-            <div class="col"></div>
-            <div class="col-md-10 activity-title-intro">
-              <h2 class="activity-header">Some Things I Do</h2>
-            </div>
-            <div class="col"></div>
-          </div> -->
-
       <h2 class="activity-header">Some Things I Do</h2>
 
       <div class="row">
-        <div class="col"></div>
-        <div id="quarter1" class="col-md-5 activity-block">
+        
+        <div id="quarter1" class="col-md-7 activity-block">
 
           <h3 class="activity-title">
             <i class="material-icons">build</i> Engineering</h3>
@@ -173,7 +166,7 @@
         <div id="quarter2" class="col-md-5 activity-block">
 
           <h3 class="activity-title">
-            <i class="material-icons">computer</i> Software Development</h3>
+              <i class="material-icons">local_dining</i> Cooking</h3>
           <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
                 to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
@@ -181,13 +174,7 @@
                 sheets containing Lorem Ipsum passages, </p> -->
 
         </div>
-        <div class="col"></div>
 
-      </div>
-
-
-      <div class="row">
-        <div class="col"></div>
         <div id="quarter3" class="col-md-5 activity-block">
 
 
@@ -200,10 +187,11 @@
                 sheets containing Lorem Ipsum passages, </p> -->
         </div>
 
-        <div id="quarter4" class="col-md-5 activity-block">
+        <div id="quarter4" class="col-md-7 activity-block">
 
           <h3 class="activity-title">
-            <i class="material-icons">local_dining</i> Cooking</h3>
+              <i class="material-icons">computer</i> Software Development</h3>
+    
           <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
                 to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
@@ -211,7 +199,7 @@
                 sheets containing Lorem Ipsum passages, </p> -->
 
         </div>
-        <div class="col"></div>
+        
       </div>
     </div>
   </div>
@@ -259,8 +247,8 @@
           <h4 class="card-header dev-tool-header">Knowledge</h4>
           <div class="card-body">
 
-            <span>French</span>
-            <span>Soldering</span>
+            <div>French</div>
+            <div>Soldering</div>
             <div>Computer Assembly</div>
             <div>KiCad</div>
             <div>NX11</div>
@@ -277,10 +265,22 @@
 
   <!-- education section-->
   <div class="education card text-white">
-    <div class="card-img-overlay">
-      <i class="fa fa-book education-title" aria-hidden="true"></i>
-      <h4 class="education-title">Always Learning</h4>
+    <div class="row education-text-container">
+      <div class="col-md-4">
+        <h4 class="lead">Always Learning</h4>
+        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s,</p>
+      </div>
+      <div class="col-md-4 edu-explanation">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+              to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+              typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+              sheets containing Lorem Ipsum passages,</p>
+        </div>
     </div>
+
+
   </div>
 
   <!--University-->
@@ -295,11 +295,11 @@
         </div>
       </div>
     </div>
-  </div>
+  
 
 
   <!--Cegep-->
-  <div class="container-fluid">
+
     <div class="row school-container college-background">
       <div class="col"></div>
       <div class="col-md-5 college-text-container">
@@ -319,13 +319,6 @@
 
 
   <!--Experience section-->
-  <div class="experience card text-white">
-    <div class="card-img-overlay">
-      <i class="fa fa-briefcase" aria-hidden="true"></i>
-      <h4 class="experience-title"> Experience & Involvement</h4>
-    </div>
-  </div>
-
 
   <div class="container-fluid experience-container">
     <div class="row">

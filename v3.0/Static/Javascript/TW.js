@@ -15,11 +15,11 @@ $(document).ready(function () {
 
 
     /*navbar transparency function that changes the color of the navbar once it scrolls past a certain point*/
-    $('main').scroll(function () {
-        if ($('main').scrollTop() > 750) {
-            $('header').addClass("visible-navbar");
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 750) {
+            $('.navbar').addClass("visible-navbar");
         } else {
-            $('header').removeClass("visible-navbar");
+            $('.navbar').removeClass("visible-navbar");
         }
     });
 

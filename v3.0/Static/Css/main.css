@@ -10,8 +10,15 @@ add the slant opening
 .navbar {
   position: fixed;
   z-index: 2;
+  width: 100%;
+  height: 9%;
+  background-color: white;
+
 }
 
+.visible-navbar{
+  background-color: rgba(0,0,0,0.4) !important;
+}
 
 /*sidenavbar styling begins here */
 #sidenav-container {
@@ -128,17 +135,6 @@ add the slant opening
     */
 }
  
-/* .jumbotron::before {
-    content: ' ';
-    position: fixed;  
-    
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    will-change: transform;
-    z-index: -1;
-} */
 
 .jumbotron-welcome-msg {
   position: relative;
@@ -200,6 +196,7 @@ add the slant opening
 .about-container {
   height: 60em;
   background-color: #1b1b1b;
+  display:flex;
 }
 .about-text-container{
   margin: auto 0em auto 8em;
@@ -213,8 +210,8 @@ add the slant opening
   overflow: hidden;
 }
 .profile-pic {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); */
 }
 
 /*Activity section*/
@@ -223,7 +220,6 @@ add the slant opening
 }
 
 .activity-card {
-  height: 50em;
   display: flex;
   background: linear-gradient(to bottom,rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61)),url("Images/doBackground.jpg") center/cover no-repeat;
 }
@@ -260,31 +256,32 @@ add the slant opening
 
 
 #quarter1 {
-  border-right: 0.5px solid white;
-  border-bottom: 0.5px solid white;
-  padding: 0em 2em 2em 0em;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+ 
+}
+
+
+#quarter2 {
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+
+}
+
+#quarter3 {
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  
+}
+
+#quarter4 {
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+
 }
 
 #quarter1:hover, #quarter2:hover, #quarter3:hover, #quarter4:hover {
   background-color: rgba(0,0,0,0.3);
-}
-
-#quarter2 {
-  border-left: 0.5px solid white;
-  border-bottom: 0.5px solid white;
-  padding: 0em 2em 0em 2em;
-}
-
-#quarter3 {
-  border-right: 0.5px solid white;
-  border-top: 0.5px solid white;
-  padding: 2em 2em 0em 0em;
-}
-
-#quarter4 {
-  border-left: 0.5px solid white;
-  border-top: 0.5px solid white;
-  padding: 2em 0em 0em 2em;
 }
 
 /*skills*/
@@ -331,30 +328,30 @@ add the slant opening
 
 /*education section*/
 .education{
-  height: 60em;
-  background: linear-gradient(to bottom,rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61)),url("Images/education.jpg") center/cover no-repeat;
-}
-.education-title {
+  height: 37em;
   position: relative;
-  top:50%;
-  display: inline-block;
-  font-size: 57px !important;
-
+  border: none !important;
+  background:url("Images/education.jpg") center/cover no-repeat;
 }
 
-.card-img-overlay {
-  position: relative;
-  top: 0;
-  right: 0;
+.education-text-container {
+  position: absolute;
   bottom: 0;
-  left: 0;
   margin: auto 0em;
-  padding: 1.25rem;
+  padding: 1.25em;
+  height: 65%;
+  width:100%;
+  background-color: rgba(23, 24, 32, 0.95);
+}
+
+
+.edu-explanation{
+  color:#c3c3c3;
 }
 
 .school-container {
   margin-bottom: 0;
-  height: 40em;
+  height: 30em;
 }
 
 
@@ -389,38 +386,10 @@ add the slant opening
 
 
 /*experience section*/
-.fa-briefcase { 
-  margin-right: 0.25em;
-  font-size: 3.5em !important; 
-}
 
-.experience {
-  height: 30em;
-  background: linear-gradient(to bottom,rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61),rgba(0,0,0,.61)) ,url("Images/education.jpg") center/cover no-repeat;
-  text-align: center;
-}
 
-.experience-title {
-  position: relative;
-  top:50%;
-  display: block;
-  font-size: 57px !important;
-}
 
-.experience-vertical-text-align {
-  margin: auto 0em;
-}
 
-.experience-slot {
-  height: 25em;
-  margin-left: 40px !important;
-  display: flex;
-  border-top: solid 7px lightgray;
-  border-bottom: solid 7px lightgray;
-}
-.experience-job-title {
-  font-size: 40px;
-}
 
 .experience-container {
   padding-top: 3em;
